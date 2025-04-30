@@ -1,0 +1,160 @@
+/*-------------------------
+   Get-In_Touch-Layout-1 Styles
+-------------------------*/
+
+
+
+.get-in-touch-layout1{
+   padding: 160px 0 0 0;
+   .get-in-touch-1{
+      .get-in-touch-wrp{
+         margin-bottom: 206px;
+         display: flex;
+         justify-content: space-between;
+         .get-in-touch-title{
+            h2{
+               font-weight: 400;
+               margin: 0;
+               @media #{$smlg-device}{
+                  font-size: 48px;
+                  line-height: 60px;
+                  font-weight: 400;
+               }
+               @media #{$md-layout}{
+                  font-size: 30px;
+                  line-height: 44px;
+                  font-weight: 400;
+               }
+               @media #{$sm-layout}{
+                  font-size: 48px;
+                  line-height: 64px;
+                  font-weight: 400;
+               }
+            }
+            @media #{$sm-layout}{
+               margin-bottom: 56px;
+            }
+         }
+         .get-in-touch-details-wrp{
+            .get-in-touch-txt-1{
+               p{
+                  font-size: 20px;
+                  line-height: 30px;
+                  font-weight: 400;
+                  @media #{$smlg-device}{
+                     font-size: 16px;
+                     line-height: 28px;
+                     font-weight: 400;
+                  }
+                  @media #{$md-layout}{
+                     font-size: 14px;
+                     line-height: 28px;
+                     font-weight: 400;
+                  }
+               }
+            }
+            .get-in-touch-txt-2{
+               p{
+                  font-size: 20px;
+                  line-height: 30px;
+                  font-weight: 400;
+                  @media #{$smlg-device}{
+                     font-size: 16px;
+                     line-height: 28px;
+                     font-weight: 400;
+                  }
+                  @media #{$md-layout}{
+                     font-size: 14px;
+                     line-height: 28px;
+                     font-weight: 400;
+                  }
+               }
+            }
+         }
+         @media #{$sm-layout}{
+            display: inline-block;
+         }
+      }
+      .even-border{
+         border: var(--border-light);
+      }
+   }  
+}
+
+
+
+.get-in-touch-layout2{
+   padding: 0 0 160px 0;
+   .get-in-touch-2{
+      .get-in-touch-wrp{
+         display: flex;
+         justify-content: space-between;
+         .get-in-touch-title{
+            h2{
+               font-weight: 400;
+               margin: 0;
+               @media #{$smlg-device}{
+                  font-size: 48px;
+                  line-height: 60px;
+                  font-weight: 400;
+               }
+               @media #{$md-layout}{
+                  font-size: 30px;
+                  line-height: 44px;
+                  font-weight: 400;
+               }
+               @media #{$sm-layout}{
+                  font-size: 48px;
+                  line-height: 64px;
+                  font-weight: 400;
+               }
+            }
+            @media #{$sm-layout}{
+               margin-bottom: 56px;
+            }
+         }
+         .get-in-touch-details-wrp{
+            .get-in-touch-txt-1{
+               p{
+                  font-size: 20px;
+                  line-height: 30px;
+                  font-weight: 400;
+                  @media #{$smlg-device}{
+                     font-size: 16px;
+                     line-height: 28px;
+                     font-weight: 400;
+                  }
+                  @media #{$md-layout}{
+                     font-size: 14px;
+                     line-height: 28px;
+                     font-weight: 400;
+                  }
+               }
+            }
+            .get-in-touch-txt-2{
+               p{
+                  font-size: 20px;
+                  line-height: 30px;
+                  font-weight: 400;
+                  @media #{$smlg-device}{
+                     font-size: 16px;
+                     line-height: 28px;
+                     font-weight: 400;
+                  }
+                  @media #{$md-layout}{
+                     font-size: 14px;
+                     line-height: 28px;
+                     font-weight: 400;
+                  }
+               }
+            }
+         }
+         @media #{$sm-layout}{
+            display: inline-block;
+         }
+      }
+      .even-border{
+         border: var(--border-light);
+      }
+   }  
+}

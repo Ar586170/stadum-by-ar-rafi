@@ -1,0 +1,50 @@
+/*-------------------------
+   Call To Action layout1 Styles
+-------------------------*/
+
+
+
+.call-to-action-layout1{
+   background-color: #FFF6F8;
+   padding: 200px 0 200px;
+   z-index: 3;
+   .call-to-action-area{
+      position: relative;
+      .call-to-action{
+         position: relative;
+         .call-to-action-content-wrp{
+            .call-to-action-title{
+               margin-bottom: 60px;
+            }
+            .download-btn{
+               justify-content: center;
+               display: flex;
+               gap: 24px;
+            }
+
+         }
+         .base-img{
+            position: absolute;
+            top: -51%;
+            right: 5%;
+            z-index: 2;
+         }
+         .mobile-img{
+            position: absolute;
+            top: -17%;
+            left: 5%;
+            z-index: 2;
+         }
+      }
+      .left-shape{
+         position: absolute;
+         top: -56%;
+         left: 41px;
+      }
+      .right-shape{
+         position: absolute;
+         bottom: -90%;
+         right: 45px;
+      }
+   }
+}

@@ -1,0 +1,44 @@
+/*-------------------------
+   Partner Styles
+-------------------------*/
+
+
+
+
+.partner-layout1{
+    .partner-wrp{
+        .partner-title{
+            .title{
+                margin-bottom: 40px;
+                span{
+                    color: #D3224D;
+                }
+            }
+        }
+        .partner-details{
+            margin-bottom: 56px;
+            p{
+                color: #506172;
+                margin: 0;
+            }
+        }
+    }
+    .partner-logo-wrp{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        max-width: 1200px;
+        margin: auto;
+        .partner-logo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #e0e0e0;
+            padding: 52px 88px;
+            background-color: #fff;
+            img{
+                height: auto;
+                display: block;
+            }
+        }
+    }
+}

@@ -1,0 +1,56 @@
+/*-------------------------
+   About Styles
+-------------------------*/
+
+
+
+.stadum-about{
+   .about-img{
+      position: relative;
+      .shape{
+         position: absolute;
+         top: 67%;
+         left: -34px;
+      }
+   }
+   .about-details-wrp{
+      margin-left: 65px;
+      .about-title{
+         margin-bottom: 64px;
+         .title{
+            span{
+               color: #D3224D;
+            }
+         }
+      }
+      .about-details-txt-wrp{
+         .about-details-txt{
+            p{
+               color: #506172;
+            }
+         }
+         .about-details-txt-2{
+            margin-bottom: 56px;
+            p{
+               color: #506172;
+            }
+         }
+      }
+      .about-us-wrp{
+         gap: 40px;
+         margin-bottom: 56px;
+         .about-us{
+            ul{
+               li{
+                  color: #506172;
+                  font-weight: 600;
+                  i{
+                     margin-right: 16px;
+                     color: #D3224D;
+                  }
+               }
+            }
+         }
+      }
+   }
+}

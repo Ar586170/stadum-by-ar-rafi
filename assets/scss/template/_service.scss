@@ -1,0 +1,406 @@
+/*-------------------------
+   Service Styles
+-------------------------*/
+
+
+
+.service-layout1{
+   .service-area-start{
+      padding: 0 0 144px 0;
+      .service-title-wrp{
+         .sectio-title{
+            margin-bottom: 40px;
+            @media #{$smlg-device}{
+               margin-bottom: 56px;
+            }
+         }
+         .service-details{
+            margin-bottom: 96px;
+            p{
+               font-size: 32px;
+               font-weight: 400;
+               line-height: 42px;
+               color: var(--color-black);
+               font-family: var(--font-primary);
+               margin: 0;
+               @media #{$smlg-device}{
+                  font-size: 26px;
+                  line-height: 40px;
+                  font-weight: 400;
+               }
+               @media #{$md-layout}{
+                  font-size: 19px;
+                  line-height: 32px;
+                  font-weight: 400;
+               }
+               @media #{$sm-layout}{
+                  font-size: 14px;
+                  line-height: 28px;
+                  font-weight: 400;
+               }
+               @media #{$small-mobile}{
+                  font-size: 12px;
+                  line-height: 24px;
+                  font-weight: 400;
+               }
+            }
+            @media #{$sm-layout}{
+               margin-bottom: 70px;
+            }
+         }
+      }
+      .service-border{
+         border-bottom: var(--border-black);
+      }
+      .our-services-wrp{
+         border-bottom: var(--border-black);
+         .services-details{
+            display: flex;
+            padding: 40px 0 40px 0;
+            .number{
+               span{
+                  font-size: 20px;
+                  font-weight: 700;
+                  line-height: 24.8px;
+                  color: var(--color-hex);
+                  font-family: var(--font-primary);
+                  text-transform: uppercase;
+                  border: var(--border-light);
+                  border-radius: 20px;
+                  padding: 7px 16px 3px 16px;
+                  position: relative;
+                  top: 18px;
+                  right: 10px;
+                  @media #{$smlg-device}{
+                     font-size: 18px;
+                     line-height: 24px;
+                     font-weight: 700;
+                     padding: 5px 12px 3px 12px;
+                  }
+                  @media #{$sm-layout}{
+                     font-size: 14px;
+                     line-height: 28px;
+                     font-weight: 700;
+                     padding: 0 12px 0 12px;
+                  }
+               }
+               @media #{$large-mobile}{
+                  padding: 20px 0 40px 30px;
+               }
+            }
+            .service-title-wrp{
+               display: flex;
+               align-items: center;
+               margin-left: 24px;
+               flex: 1;
+               .title{
+                  margin: 0;
+                  a{
+                     font-size: 80px;
+                     font-weight: 500;
+                     line-height: 92px;
+                     color: var(--color-black);
+                     font-family: var(--font-primary);
+                     margin: 0;
+                     @media #{$smlg-device}{
+                        font-size: 60px;
+                        line-height: 80px;
+                        font-weight: 500;
+                     }
+                     @media #{$md-layout}{
+                        font-size: 45px;
+                        line-height: 60px;
+                        font-weight: 500;
+                     }
+                     @media #{$sm-layout}{
+                        font-size: 36px;
+                        line-height: 45px;
+                        font-weight: 500;
+                     }
+                     @media #{$large-mobile}{
+                        font-size: 55px;
+                        line-height: 60px;
+                        font-weight: 400;
+                     }
+                     @media #{$small-mobile}{
+                        font-size: 44px;
+                        line-height: 60px;
+                        font-weight: 500;
+                     }
+                  }
+               }
+               .service-icon{
+                  a{
+                     flex: 1;
+                     text-align: end;
+                     border-radius: 50%;
+                     padding: 12px 12px 12px 12px;
+                     transition: var(--transition);
+                     @media #{$sm-layout}{
+                        width: 65px;
+                     }
+                     @media #{$small-mobile}{
+                        width: 65px;
+                     }
+                  }
+               }
+               .service-icon{
+                  flex: 1;
+                  text-align: end;
+                  border-radius: 50%
+               }
+               .service-icon{
+                  flex: 1;
+                  text-align: end;
+                  border-radius: 50%
+               }
+            }
+            &:hover .title a{
+               color: var(--color-hex);
+               transition: 1s;
+            }
+            @media #{$large-mobile}{
+               display: block;
+               padding: 0 0 40px 0;
+            }
+         }
+         &:hover .service-icon a{
+            background-color: var(--color-hex);
+            -webkit-transform:rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+            border-radius: 50%;
+         }
+      }
+      .our-services-wrp-2{
+         margin-bottom: 56px;
+         .services-details{
+            display: flex;
+            padding: 40px 0 40px 0;
+            .number{
+               span{
+                  font-size: 20px;
+                  font-weight: 700;
+                  line-height: 24.8px;
+                  color: var(--color-hex);
+                  font-family: var(--font-primary);
+                  text-transform: uppercase;
+                  border: var(--border-light);
+                  border-radius: 20px;
+                  padding: 7px 16px 3px 16px;
+                  position: relative;
+                  top: 18px;
+                  right: 10px;
+                  @media #{$smlg-device}{
+                     font-size: 18px;
+                     line-height: 24px;
+                     font-weight: 700;
+                     padding: 5px 12px 3px 12px;
+                  }
+                  @media #{$sm-layout}{
+                     font-size: 14px;
+                     line-height: 28px;
+                     font-weight: 700;
+                     padding: 0 12px 0 12px;
+                  }
+               }
+               @media #{$large-mobile}{
+                  padding: 20px 0 40px 30px;
+               }
+            }
+            .service-title-wrp{
+               display: flex;
+               align-items: center;
+               margin-left: 24px;
+               flex: 1;
+               .title{
+                  margin: 0;
+                  a{
+                     font-size: 80px;
+                     font-weight: 500;
+                     line-height: 92px;
+                     color: var(--color-black);
+                     font-family: var(--font-primary);
+                     margin: 0;
+                     @media #{$smlg-device}{
+                        font-size: 60px;
+                        line-height: 80px;
+                        font-weight: 500;
+                     }
+                     @media #{$md-layout}{
+                        font-size: 45px;
+                        line-height: 60px;
+                        font-weight: 500;
+                     }
+                     @media #{$sm-layout}{
+                        font-size: 36px;
+                        line-height: 45px;
+                        font-weight: 500;
+                     }
+                     @media #{$large-mobile}{
+                        font-size: 55px;
+                        line-height: 60px;
+                        font-weight: 400;
+                     }
+                     @media #{$small-mobile}{
+                        font-size: 44px;
+                        line-height: 60px;
+                        font-weight: 500;
+                     }
+                  }
+               }
+               .service-icon-5{
+                  flex: 1;
+                  text-align: end;
+                  a{
+                     border-radius: 50%;
+                     padding: 12px 12px 12px 12px;
+                     @media #{$sm-layout}{
+                        width: 65px;
+                     }
+                     @media #{$small-mobile}{
+                        width: 65px;
+                     }
+                  }
+               }
+            }
+            &:hover .title a{
+               color: var(--color-hex);
+               transition: 1s;
+            }
+            @media #{$large-mobile}{
+               display: block;
+               padding: 0 0 40px 0;
+            }
+         }
+         &:hover .service-icon-5 a{
+            background-color: var(--color-hex);
+            -webkit-transform:rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+            border-radius: 50%;
+         }
+         @media #{$smlg-device}{
+            margin-bottom: 40px; 
+         }
+      }
+   }
+}
+
+
+
+.service-layout2{
+   padding: 160px 0 192px;
+   .service-area-start{
+      .service-2-title-wrp{
+         margin-bottom: 96px;
+         display: flex;
+         justify-content: space-between;
+         .sectio-title{
+
+         }
+         .service-2-title{
+            h3{
+               font-size: 64px;
+               line-height: 80px;
+               font-weight: 400;
+               margin: 0;
+               @media #{$md-layout}{
+                  font-size: 56px;
+                  line-height: 64px;
+                  font-weight: 400;
+               }
+               @media #{$sm-layout}{
+                  font-size: 47px;
+                  line-height: 60px;
+                  font-weight: 400;
+               }
+               @media #{$small-mobile}{
+                  font-size: 64px;
+                  line-height: 80px;
+                  font-weight: 400;
+               }
+            }
+         }
+         @media #{$md-layout}{
+            display: inline-block;
+         }
+      }
+      .service-2-border{
+         border: var(--border-black);
+      }
+      .our-services-2-wrp{
+         display: flex;
+         justify-content: space-between;
+         padding: 56px 0 56px;
+         .service-2-title-details-wrp{
+            .service-number{
+               margin-bottom: 26px;
+               span{
+                  font-size: 20px;
+                  font-weight: 700;
+                  line-height: 24px;
+                  color: var(--color-hex);
+                  font-family: var(--font-primary);
+                  border: var(--border-light);
+                  border-radius: 50px;
+                  padding: 5px 13.5px 2px 13.5px;
+               }
+            }
+            .our-services-title{
+               h2{
+                  font-size: 80px;
+                  font-weight: 500;
+                  line-height: 100px;
+                  margin: 0;
+                  @media #{$smlg-device}{
+                     font-size: 60px;
+                     line-height: 80px;
+                     font-weight: 500;
+                  }
+                  @media #{$md-layout}{
+                     font-size: 48px;
+                     line-height: 60px;
+                     font-weight: 500;
+                  }
+               }
+               @media #{$sm-layout}{
+                  margin-bottom: 16px;               }
+            }
+         }
+         .service-2-details-wrp{
+            margin-top: 70px;
+            .service-2-details-txt{
+               margin-bottom: 48px;
+               p{
+                  margin: 0;
+                  font-size: 20px;
+                  font-weight: 400;
+                  line-height: 30px;
+                  color: #121212;
+                  @media #{$smlg-device}{
+                     font-size: 16px;
+                     line-height: 30px;
+                     font-weight: 400;
+                  }
+                  @media #{$md-layout}{
+                     font-size: 12px;
+                     line-height: 26px;
+                     font-weight: 500;
+                  }
+               }
+            }
+            @media #{$sm-layout}{
+               margin: 0;
+            }
+         }
+         @media #{$sm-layout}{
+            display: inline-block;
+         }
+      }
+   }
+}

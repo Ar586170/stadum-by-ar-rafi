@@ -1,0 +1,101 @@
+/*-------------------------
+   Choose Us Styles
+-------------------------*/
+
+
+
+.choose-us-layout1{
+    background-color: #FFF6F8;
+    .choose-us-wrp{
+        .choose-us-content-wrp{
+            margin-left: 150px;
+            .title-wrp{
+                .choose-us-title{       
+                    margin-bottom: 40px;     
+                }
+                .choose-us-details{
+                    p{
+                        color: #506172;
+                        font-weight: 400;
+                    }
+                }
+            }
+            .choose-us-content{
+                ul{
+                    li{
+                        font-weight: 600;
+                        color: #081933;
+                        i{
+                            margin-right: 10px;
+                            color: #D3224D;
+                        }
+                    }
+                }
+            }
+            .section-btn{
+                margin-top: 56px;
+                position: relative;
+                .choose-us-shape{
+                    position: absolute;
+                    right: 58%;
+                    top: 8px;
+                }
+            } 
+        }  
+        .choose-us-img-wrp{
+            position: relative;
+            .play-btn {
+                right: 45%;
+                top: 45%;
+                position: absolute;
+                cursor: pointer;
+                .stadum-demo-video{
+                  i {
+                    display: flex;
+                    align-items: center;
+                    background-color: #D3224D;
+                    padding: 27px 27px 26px 30px;
+                    border-radius: 50%;
+                    font-size: 25px;
+                    color: var(--color-white);
+                      position: relative;
+                    z-index: 1;
+                  }
+                }
+                &::before,
+                &::after {
+                  content: '';
+                  display: block;
+                  position: absolute;
+                  top: 0;
+                  right: 0;
+                  bottom: 0;
+                  left: 0;
+                  transition: var(--transiton);
+                  border-radius: 50%;
+                  border: 1.5px solid var(--color-white);
+          
+                }
+                &::before {
+                  animation: ripple 2s linear infinite;
+                }
+                &::after {
+                  animation: ripple 2s linear infinite;
+                  animation-delay: 0.5s;
+                }
+             }
+        }
+    }
+}
+
+@keyframes ripple {
+    0% {
+      transform: scale(0);
+      opacity: 1;
+    }
+  
+    100% {
+      transform: scale(2);
+      opacity: 0.5;
+    }
+  }

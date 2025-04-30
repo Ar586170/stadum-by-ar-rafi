@@ -1,0 +1,293 @@
+/*-------------------------
+    Contact Us Style
+-------------------------*/
+
+
+.contact-us-layout1{
+    padding: 120px 0 72px 0;
+    background-color: var(--color-primary);
+    .keeper-contact-us{
+        .contact-form-wrp{
+            margin-bottom: 64px;
+            .name{
+               .form-title{
+                    margin-bottom: 16px;
+                    .number{
+                        font-size: 20px;
+                        font-weight: 700;
+                        line-height: 24px;
+                        color: var(--color-hex);
+                        border: var(--border-light);
+                        padding: 4px 12px 1px  12px;
+                        border-radius: 20px;
+                        font-family: var(--font-primary);
+                        margin-right: 24px;
+                        @media #{$sm-layout}{
+                            font-size: 16px;
+                            line-height: 28px;
+                            font-weight: 700;
+                        }
+                    }
+                    .title{
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 34px;
+                        color: var(--color-white);
+                        font-family: var(--font-primary);
+                        @media #{$sm-layout}{
+                            font-size: 20px;
+                            line-height: 30px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+                .form{
+                    padding-left: 80px;
+                    .form-input{
+                        background: transparent;
+                        border-bottom: var(--border-hemp);
+                        color: var(--color-hex);
+                        font-size: 20px;
+                        line-height: 30px;
+                        font-weight: 400;
+                        letter-spacing: 1px;
+                        font-family: var(--font-primary);
+                        padding: 0;
+                        @media #{$sm-layout}{
+                            font-size: 16px;
+                            line-height: 38px;
+                            font-weight: 400;
+                        }
+                    }
+                    input:focus{
+                        outline: none;
+                        box-shadow: none;
+                    }
+                } 
+            }
+        }
+        .submit-btn{
+            margin-bottom: 200px;
+            a{
+               .submitbtn{
+                    background: transparent;
+                    border-radius: 50px;
+                    border: var(--border-white);
+                    padding: 10px 16px 10px 28px;
+                    span{
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 22.32px;
+                        color: var(--color-white);
+                        font-family: var(--font-primary);
+                        margin-right: 10px;
+                        text-transform: uppercase;
+                        @media #{$smlg-device}{
+                            font-size: 16px;
+                            line-height: 22px;
+                            font-weight: 500;
+                        }
+                        @media #{$md-layout}{
+                            font-size: 14px;
+                            line-height: 28px;
+                            font-weight: 500;
+                        }
+                    }
+                    .icon{
+                        border-radius: 50%;
+                        padding: 4px 4px;
+                        transition: var(--transition);
+                            @media #{$md-layout}{
+                                width: 30px;
+                            }
+                    }
+                    &:hover .icon{
+                        -webkit-transform:rotate(45deg);
+                        -moz-transform: rotate(45deg);
+                        -ms-transform: rotate(45deg);
+                        -o-transform: rotate(45deg);
+                        transform: rotate(45deg);
+                        background-color: var(--color-hex);
+                        border-radius: 50%;      
+                    }
+                    @media #{$smlg-device}{
+                        padding: 4px 16px 10px 24px;                    
+                    }
+                } 
+            }
+            @media #{$md-layout}{
+                margin-bottom: 100px;
+            }
+        }
+        .our-address-wrp{
+            padding-left: 230px;
+            .phone-number-wrp{
+                margin-bottom: 65px;
+                .number-title{
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    color: var(--color-hex);
+                    font-family: var(--font-primary);
+                    margin-bottom: 16px;
+                    @media #{$smlg-device}{
+                        font-size: 18px;
+                        line-height: 24px;
+                        font-weight: 700;
+                    }
+                }
+                .phone-number{
+                    li{
+                        font-size: 24px;
+                        font-weight: 400;
+                        line-height: 34px;
+                        color: var(--color-white);
+                        font-family: var(--font-primary);
+                        @media #{$smlg-device}{
+                            font-size: 16px;
+                            line-height: 26px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+            .address-wrp{
+                margin-bottom: 65px;
+                .address-title{
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 24px;
+                    color: var(--color-hex);
+                    font-family: var(--font-primary);
+                    margin-bottom: 16px;
+                    @media #{$smlg-device}{
+                        font-size: 18px;
+                        line-height: 24px;
+                        font-weight: 700;
+                    }
+                }
+                .address{
+                    font-size: 24px;
+                    font-weight: 400;
+                    line-height: 34px;
+                    color: var(--color-white);
+                    font-family: var(--font-primary);
+                    margin: 0;
+                    @media #{$smlg-device}{
+                        font-size: 16px;
+                        line-height: 26px;
+                        font-weight: 400;
+                    }
+                }
+            }
+            .social-media-wrp{
+                .our-social-media{
+                    display: flex;
+                    li{
+                        margin-right: 24px;
+                        a{
+                            i{
+                                font-size: 28px;
+                                color: var(--color-white);
+                                &:hover{
+                                    transition: var(--transition);
+                                    color: var(--color-secondary);
+                                }
+                                @media #{$smlg-device}{
+                                    font-size: 18px;
+                                }
+                                @media #{$sm-layout}{
+                                    font-size: 16px;;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            @media #{$md-layout}{
+                padding: 0;
+                margin-bottom: 100px;
+            }
+        }
+        .keeper-footer-copyright-wrp{
+            border-top: var(--border-light);
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+            .copyright-wrp{
+                display: flex;
+                margin-top: 48px;
+                .copyright-title{
+                    span{
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        font-family: var(--font-primary);
+                        color: #AD9C94;
+                        @media #{$smlg-device}{
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                        }
+                        @media #{$sm-layout}{
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 24px;
+                        }
+                    }
+                }
+                .privacy-policy{
+                    margin-left: 80px;
+                    a{
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        font-family: var(--font-primary);
+                        color: #AD9C94;
+                        &:hover{
+                            transition: var(--transition);
+                            color: var(--color-secondary);
+                        }
+                        @media #{$smlg-device}{
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                        }
+                        @media #{$sm-layout}{
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 24px;
+                        }
+                    }
+                    @media #{$sm-layout}{
+                        margin-left: 40px;
+                    }
+                }
+            }
+            .creator-title{
+                margin-top: 48px;
+                a{
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    font-family: var(--font-primary);
+                    color: #AD9C94;
+                    &:hover{
+                        transition: var(--transition);
+                         color: var(--color-secondary);
+                    }
+                    @media #{$smlg-device}{
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                    @media #{$sm-layout}{
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}

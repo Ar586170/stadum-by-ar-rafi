@@ -1,0 +1,134 @@
+/*-------------------------
+  Helper Classes
+-------------------------*/
+
+.bg-color-dark {
+    background-color: var(--color-rangoon);
+}
+
+.bg-color-antique {
+    background-color: var(--color-primary-antique);
+}
+
+.bg-color-scotch {
+    background-color: var(--color-scotch);
+}
+
+.bg-color-light-pink{
+    background-color: var(--color-light-pink);
+}
+
+.bg-color-chiffon{
+    background-color: var(--color-chiffon);
+}
+
+.container{
+    max-width: 1620px;
+}
+
+// Opacity
+.opacity-50 {
+    opacity: 0.5;
+}
+
+// section title
+.section-title{
+    position: relative;
+    margin-bottom: 24px;
+    span{
+        font-size: 18px;
+        line-height: 26px;
+        color: #D3224D;
+        font-weight: 600;
+        margin-left: 50px;
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        transform: rotate(360deg);
+        width: 36px;
+        height: 1px;
+        background-color: #D3224D;
+      }
+}
+.section-title-2{
+    position: relative;
+    margin-bottom: 10px;
+    span{
+        font-size: 18px;
+        line-height: 26px;
+        color: #D3224D;
+        font-weight: 600;
+        margin-left: 50px;
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        left: 45%;
+        top: 50%;
+        transform: translateY(-50%);
+        transform: rotate(360deg);
+        width: 36px;
+        height: 1px;
+        background-color: #D3224D;
+      }
+}
+
+
+//section button
+.section-btn {
+    a {
+        background-color: #D3224D;
+        color: var(--color-white);
+        padding: 15px 25px;
+        border-radius: 0;
+        display: inline-flex;
+        align-items: center;
+        svg {
+            position: relative;
+            top: 0;
+            margin-left: 8px;
+            fill: var(--color-white);
+            transition: fill 0.3s ease;
+        }
+        &:hover svg path {
+            fill: #000;
+        }
+        &:hover {
+            background-color: transparent;
+            border: 1px solid #D3224D;
+            color: #000;
+        }
+    }
+}
+.section-btn-2 {
+    a {
+        background-color: transparent;
+        color: #081933;
+        padding: 15px 25px;
+        border: 1px solid #081933;
+        border-radius: 0;
+        display: inline-flex;
+        align-items: center;
+        svg {
+            position: relative;
+            top: 0;
+            margin-left: 8px;
+            transition: fill 0.3s ease;
+        }
+        &:hover svg path {
+            fill: var(--color-white);
+        }
+        &:hover {
+            background-color: #D3224D;
+            color: var(--color-white);
+            border: #D3224D;
+        }
+    }
+}
+
+
+//typo

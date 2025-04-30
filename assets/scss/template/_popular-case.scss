@@ -1,0 +1,184 @@
+/*-------------------------
+   Popular Case Styles
+-------------------------*/
+
+
+
+.popular-case-layout1{
+    .Stadum-popular-case{
+        position: relative;
+        .popular-case-title-wrp{
+            margin-bottom: 56px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .popular-course-btn{
+                ul{
+                    display: flex;
+                    gap: 16px;
+                    li{
+                        a{
+                            color: #081933;
+                            background-color: transparent;
+                            padding: 10px 20px;            
+                            border: 1px solid #D3DBE2;
+                        }
+                        .active{
+                            background-color: #D3224D;
+                            color: var(--color-white);
+                            border: none;
+                        }
+                    }
+                }
+            }
+        }
+        .popular-case-card{
+            padding: 32px;
+            border: 1px solid #D3DBE2;
+            .popular-case-card-img{
+                margin-bottom: 32px;
+                img{
+                    
+                }
+            }
+            .card-content{
+                span{
+                    color: #D3224D;
+                    font-size: 14px;
+                    line-height: 24px;
+                    font-weight: 500;
+                    border: 1px solid #D3DBE2;
+                    padding: 5px 10px;
+                    margin-bottom: 8px;
+                }
+                .title{
+                    font-size: 24px;
+                    line-height: 34px;
+                    margin-bottom: 20px;
+                    a{
+                        color: #081933;
+                        &:hover{
+                            color: #D3224D;
+                        }
+                    }
+                }
+                .ratting-wrp{
+                    display: flex;
+                    gap: 8px;
+                    align-items: last baseline;
+                    margin-bottom: 20px;
+                    ul{
+                        display: flex;
+                        gap: 4px;
+                        li{
+                            i{
+                                font-size: 13px;
+                                color: #FF9F43;
+                            }
+                        }
+                    }
+                    .ratting{
+                        color: #03060E;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        border: none;
+                        padding: 0;
+                    }
+                }
+                .duration-wrp{
+                    border: 1px solid #D3DBE2;
+                    padding: 8px 20px;
+                    margin-bottom: 30px;
+                    ul{
+                        display: flex;
+                        justify-content: center;
+                        gap: 50px;
+                        li{
+                            font-size: 14px;
+                            line-height: 24px;
+                            font-weight: 500;
+                            i{
+                                font-size: 13px;
+                                color: #D3224D;
+                                margin-right: 6px;
+                            }
+                        }
+                        .year{
+                            padding-left: 20px; 
+                            position: relative;
+                            &::before {
+                              content: "";
+                              position: absolute;
+                              left: -23px;
+                              top: 50%;
+                              transform: translateY(-50%);
+                              width: 1px;
+                              height: 14px;
+                              background-color: #081933;
+                            }
+                        }
+                        .seat{
+                            padding-left: 20px; 
+                            position: relative;
+                            &::before {
+                              content: "";
+                              position: absolute;
+                              left: -23px;
+                              top: 50%;
+                              transform: translateY(-50%);
+                              width: 1px;
+                              height: 14px;
+                              background-color: #081933;
+                            }
+                        }
+                    }
+                }
+            }
+            .admin-wrp{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .admin{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    img{    
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50%;
+                        overflow: hidden;
+                    }
+                    .admin-details{
+                        .title{
+                            font-size: 18px;
+                            line-height: 26px;
+                            font-weight: 500;
+                            font-family: var(--font-secondary);
+                            margin: 0;
+                        }
+                    }
+                }
+                .enroll-btn{
+                    a{
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        color: #081933;
+                        background-color: transparent;
+                        padding: 10px 20px;
+                        border: 1px solid #D3DBE2;
+                    }
+                }
+            }
+        }
+        .section-btn{
+            margin-top: 56px;
+        }
+        .shape{
+            position: absolute;
+            bottom: -2%;
+            left: 2%;
+        }
+    }
+}

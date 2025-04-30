@@ -1,0 +1,75 @@
+/*-------------------------
+    Variables
+-------------------------*/
+:root {
+// Color
+--color-primary-periwinkle: #6360D8;
+--color-primary-go-green: #56F13D;
+--color-primary-antique: #FFE9DC;
+--color-rangoon: #171717;
+--color-iridium: #3A3A3A;
+--color-smokey-grey: #737373;
+--color-white: #ffffff;
+--color-black: #000000;
+--color-magnolia: #F8F3FE;
+--color-light-pink: #FDF5F0;
+--color-chiffon: #EEFDC1;
+--color-scotch: #FCFADE;
+--color-golden-fizz: #F5F85C;
+--color-schnapps: #FCDECC;
+--color-yellow-green: #DAF87E;
+--color-albescent: #FDE3D5;
+
+
+
+//Category Color
+--color-sky-blue: #33CCFF;
+--color-orange: #FF7033;
+--color-green: #28CE0D;
+
+// Gradient Color
+--gradient-primary: linear-gradient(180deg, rgba(25, 22, 22, 0) 4.21%, #424242 100%);
+
+
+
+// Border
+--border-rangoon: 1px solid #171717;
+
+
+
+//Font Family
+--font-primary: "Playfair Display", serif;
+--font-secondary: "Plus Jakarta Sans", sans-serif;
+
+// Transition
+--transition: all 0.3s ease-in-out;
+
+//Fonts Size
+--font-body-1: 20px;
+--font-body-2: 18px;
+--font-body-3: 20px;
+--font-body-4: 16px;
+
+// Line Height
+--line-height-b1: 1.5;
+--line-height-b3: 1.1;
+
+// Heading Font 
+--h1: 72px; 
+--h2: 40px; 
+--h3: 32px;
+--h4: 24px; 
+--h5: 18px; 
+}
+
+// Layouts Variation
+$smlg-device: 'only screen and (max-width: 1199px)';
+$laptop-layout:'only screen and (max-width: 1440px)';
+$extra-device: 'only screen and (min-width: 1600px) and (max-width: 1919px)';
+$laptop-device: 'only screen and (min-width: 1200px) and (max-width: 1599px)';
+$lg-layout: 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$md-layout:'only screen and (max-width: 991px)';
+$sm-layout:'only screen and (max-width: 767px)';
+$large-mobile: 'only screen and (max-width: 575px)';
+$small-mobile: 'only screen and (max-width: 479px)';
+

@@ -1,0 +1,41 @@
+/*-------------------------
+   Mentorship Styles
+-------------------------*/
+
+
+
+.mentorship-layout1{
+    padding: 120px 0 400px;
+    .mentorship-wrp{
+        position: relative;
+        .title-wrp{
+            .mentorship-title{
+                margin-bottom: 56px;
+            }
+        }
+        .mentorship-details-title{
+            background-color: #EEF1F4;
+            padding: 64px 76px;
+            margin: 0 15px 0;
+            position: absolute;
+            top: 90%;
+            .title{
+                font-size: 28px;
+                font-weight: 700;
+                color: #081933;
+                margin-bottom: 30px;
+            }
+            .mentorship-details{
+                color: #6E7070;
+                font-size: 20px;
+                font-weight: 400;
+                margin-bottom: 48px;
+            }
+        }
+        .section-btn{
+            a{  
+                padding: 10px 18px;
+            }
+        }
+    }
+}

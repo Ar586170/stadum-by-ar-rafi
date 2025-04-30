@@ -1,0 +1,315 @@
+/*-------------------------
+   Banner-Layout Styles
+-------------------------*/
+
+
+.banner {
+   .banner-1 {
+      position: relative;
+
+      .banner-hero-img {
+         padding-bottom: 60px;
+        .banner-slider-wrapper {
+          position: relative;
+
+          .banner-slide {
+            .hero-banner-content-wrp {
+              position: relative;
+              margin-left: 160px;
+
+              img {
+                width: 100%;
+                height: auto;
+              }
+
+              .banner-content-wrp {
+                position: absolute;
+                top: 45%;
+                left: 30%;
+                transform: translate(-50%, -50%);
+                z-index: 1;
+
+                .banner-content {
+                  .title {
+                    color: var(--color-white);
+                    margin-bottom: 30px;
+                    span{
+                      color: var(--color-white);
+                      font-family: var(--font-primary);
+                      .symbol{
+                        position: relative;
+                        top: 2px;
+                      }
+                    }
+                  }
+
+                  .banner-subtitle {
+                    color: var(--color-white);
+                    margin-bottom: 60px;
+
+                    p {
+                      margin: 0;
+                    }
+                  }
+
+                  .banner-search-form {
+                    display: flex;
+                    background-color: var(--color-white);
+                    max-width: 640px;
+                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+                    input {
+                      flex-grow: 1;
+                      border: none;
+                      background: transparent;
+                      padding: 0 0 0 10px;
+                      font-size: 16px;
+                      color: var(--color-body);
+                      outline: none;
+
+                      &::placeholder {
+                        color: #506172;
+                      }
+                    }
+
+                    button {
+                      background-color: #D3224D;
+                      color: var(--color-white);
+                      border: none;
+                      width: 60px;
+                      height: 61px;
+                      display: flex;
+                      align-items: center;
+                      justify-content: center;
+                      cursor: pointer;
+                      transition: background-color 0.3s ease;
+
+                      &:hover {
+                        background-color: darken(#D3224D, 10%);
+                      }
+
+                      i {
+                        font-size: 20px;
+                      }
+                    }
+                  }
+                  .play-btn {
+                    right: -50%;
+                    top: 50%;
+                    position: absolute;
+                    cursor: pointer;
+                    .stadum-demo-video{
+                      i {
+                        display: flex;
+                        align-items: center;
+                        background-color: var(--color-white);
+                        padding: 27px 27px 26px 30px;
+                        border-radius: 50%;
+                        font-size: 25px;
+                        color: #D3224D;
+                        position: relative;
+                        z-index: 1;
+                      }
+                    }
+                    &::before,
+                    &::after {
+                      content: '';
+                      display: block;
+                      position: absolute;
+                      top: 0;
+                      right: 0;
+                      bottom: 0;
+                      left: 0;
+                      transition: var(--transiton);
+                      border-radius: 50%;
+                      border: 1.5px solid var(--color-white);
+                    }
+                    &::before {
+                      animation: ripple 2s linear infinite;
+                    }
+                    &::after {
+                      animation: ripple 2s linear infinite;
+                      animation-delay: 0.5s;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .banner-content-2-wrp{
+        position: relative;
+        z-index: 2;
+        top: 30px;
+        margin: 0 160px 0;
+        .social-media-wrp{
+          ul{
+            display: flex;
+            gap: 16px;
+            align-items: center;
+            li{
+              a{
+                border: 1px solid #D3DBE2;
+                padding: 6px 12px;
+                transition: var(--transiton);
+                i{
+                  font-size: 14px; 
+                  color: var(--color-white);
+                }
+              }
+              &:hover{
+                background-color: var(--color-white);
+                transition: var(--transiton);
+                i{
+                  color: #D3224D;
+                }
+              }
+            }
+          }
+        }
+        .course-details-wrp{
+          display: flex;
+          align-items: center;
+          gap: 80px;
+          .course-wrp{
+            .course-img{
+              margin-right: 24px;
+            }
+            .course-details-title{
+              .title{
+                font-size: 28px;
+                font-family: var(--font-primary);
+                margin-bottom: 5px;
+              }
+              .title-2{
+                font-size: 24px;
+                font-family: var(--font-primary);
+                margin-bottom: 10px;
+              }
+              h6{
+                font-size: 16px;
+                font-family: var(--font-secondary) !important;
+              }
+            }
+          }
+          .course-2{
+            position: relative;
+            display: flex;
+            align-items: center;
+            &::before {
+              content: "";
+              position: absolute;
+              left: -40px;
+              top: 50%;
+              transform: translateY(-50%);
+              width: 1px;
+              height: 64px;
+              background-color: #D3DBE2;
+            }
+          }
+          .course-1{
+            position: relative;
+            display: flex;
+            align-items: center;
+            &::before {
+              content: "";
+              position: absolute;
+              right: 225px;
+              top: 50%;
+              transform: translateY(-50%);
+              transform: rotate(360deg);
+              width: 316px;
+              height: 1px;
+              background-color: #D3DBE2;
+            }
+          }
+        }
+      }
+      .slick-dots {
+        position: absolute;
+        bottom: 50%;
+        left: -45%;
+        transform: rotate(90deg);
+        list-style: none;
+        padding: 0;
+        margin: 0;
+         &::before {
+              content: "";
+              position: absolute;
+              right: 55%;
+              top: 66%;
+              transform: translateY(-50%);
+              transform: rotate(360deg);
+              width: 130px;
+              height: 1px;
+              background-color: #D3DBE2;
+            }
+         &::after {
+              content: "";
+              position: absolute;
+              right: 38%;
+              top: 66%;
+              transform: translateY(-50%);
+              transform: rotate(360deg);
+              width: 130px;
+              height: 1px;
+              background-color: #D3DBE2;
+            }
+        li {
+          margin: 0 5px;
+          button {
+            font-size: 0;
+            line-height: 0;
+            display: block;
+            width: 20px;
+            height: 20px;
+            padding: 5px;
+            cursor: pointer;
+            color: transparent;
+            background: transparent;
+            border: 1px solid var(--color-white);
+            border-radius: 50px;
+            &::before {
+              content: '';
+              display: block;
+              width: 40%;
+              height: 40%;
+              top: 6px;
+              left: 6px;
+              opacity: 1;
+              border-radius: 50px;
+              background-color: var(--color-white);
+            }
+          }
+        }
+      }
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: -108px;
+        width: 26%;
+        height: fill-available;
+        background-color: #D3224D;
+        z-index: 0;
+      }
+   }
+}
+
+/// Keyfram Animation
+@keyframes headerSlideDown {
+  0% {
+    margin-top: -50px;
+    opacity: 0;
+  }
+  30% {
+    margin-top: -10px;
+    opacity: 0;
+  } 
+  100% {
+    margin-top: 0;
+    opacity: 1;
+  }
+}

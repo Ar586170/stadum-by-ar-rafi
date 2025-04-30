@@ -1,0 +1,255 @@
+/*-------------------------
+   Footer Styles
+-------------------------*/
+
+ul,
+li{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.footer-area{
+    .keeper-footer{
+        background-color: var(--color-primary);
+        padding: 128px 0 72px 0;
+        .keeper-footer-title-wrp{
+            .footer-title{
+                font-size: 160px;
+                font-weight: 500;
+                line-height: 160px;
+                font-family: var(--font-primary);
+                color: var(--color-white);
+                margin-bottom: 98px;
+                @media #{$smlg-device}{
+                  font-size: 110px;
+                  line-height: 120px;
+                  font-weight: 700;
+                }
+                @media #{$md-layout}{
+                    font-size: 90px;
+                    font-weight: 700;
+                    line-height: 100px;
+                }
+                @media #{$sm-layout}{
+                  font-size: 80px;
+                  line-height: 84px;
+                  font-weight: 700;
+                  margin-bottom: 60px;
+               }
+            }
+        }
+        .get-in-touch{
+         position: relative;
+         top: 8%;
+         left: 10%;
+         svg{
+            fill: currentColor;
+            height: auto;
+            max-width: 50vmin;
+            transform-origin: center;
+            width: 66%;
+            padding: 4px;
+            background-color: var(--color-secondary);
+            border-radius: 50%;
+            animation: animate 20.5s linear infinite;
+            @keyframes animate{
+               0%
+               {
+                     transform: rotate(0deg);
+               }
+               100%
+               {
+                     transform: rotate(360deg);
+               }
+            }
+            .style{
+               font-size: 10.5px;
+               font-family: var(--font-primary);
+               font-weight: 500;
+               cursor: default;
+            }
+         }
+         .arrow-banner{
+            position: absolute;
+            top: 65px;
+            left: 62px;
+            @media #{$smlg-device}{
+                top: 32%;
+                left: 53px;
+                width: 65px;
+            }
+            @media #{$md-layout}{
+                top: 55px;
+                width: 70px;
+            }
+         }
+         &:hover .arrow-banner{
+            -webkit-transform:rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+            transition: var(--transition);
+         }
+         @media #{$smlg-device}{
+            width: 260px;
+            top: 8%;
+            right: 18px;
+         }
+         @media #{$md-layout}{
+            top: -45px;
+            width: 260px;
+            left: 0;
+         }
+         @media #{$sm-layout}{
+            top: -20%;
+         }
+      }
+        .footer-border{
+            border: var(--border-hemp);
+        }
+        .footer-menu-wrp{
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 0 74px 0;
+            .footer-menu-section{
+                .menu{
+                    display: flex;
+                    li{
+                        margin-right: 40px;
+                        a{
+                            font-size: 18px;
+                            font-weight: 400;
+                            line-height: 24px;
+                            font-family: var(--font-primary);
+                            color: var(--color-white);
+                            &:hover{
+                                transition: var(--transition);
+                                color: var(--color-secondary);
+                            }
+                            @media #{$smlg-device}{
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 24px; 
+                            }
+                            @media #{$sm-layout}{
+                                font-size: 12px;
+                                font-weight: 400;
+                                line-height: 24px;
+                            }
+                        }
+                        @media #{$sm-layout}{
+                            margin-right: 30px;
+                        }
+                    }
+                }
+            }
+            .footer-menu-social-media{
+                .socila-media{
+                    display: flex;
+                    li{
+                        margin-left: 24px;
+                        a{
+                            i{
+                                font-size: 28px;
+                                color: var(--color-white);
+                                &:hover{
+                                    transition: var(--transition);
+                                    color: var(--color-secondary);
+                                }
+                                @media #{$smlg-device}{
+                                    font-size: 22px;
+                                }
+                                @media #{$sm-layout}{
+                                    font-size: 16px;;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            @media #{$smlg-device}{
+                padding: 40px 0 60px 0; 
+            }
+        }
+        .keeper-footer-copyright-wrp{
+            display: flex;
+            justify-content: space-between;
+            padding: 0;
+            .copyright-wrp{
+                display: flex;
+                .copyright-title{
+                    span{
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        font-family: var(--font-primary);
+                        color: #AD9C94;
+                        @media #{$smlg-device}{
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                        }
+                        @media #{$sm-layout}{
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 24px;
+                        }
+                    }
+                }
+                .privacy-policy{
+                    margin-left: 80px;
+                    a{
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        font-family: var(--font-primary);
+                        color: #AD9C94;
+                        &:hover{
+                            transition: var(--transition);
+                            color: var(--color-secondary);
+                        }
+                        @media #{$smlg-device}{
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 24px;
+                        }
+                        @media #{$sm-layout}{
+                            font-size: 12px;
+                            font-weight: 400;
+                            line-height: 24px;
+                        }
+                    }
+                    @media #{$sm-layout}{
+                        margin-left: 40px;
+                    }
+                }
+            }
+            .creator-title{
+                a{
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    font-family: var(--font-primary);
+                    color: #AD9C94;
+                    &:hover{
+                        transition: var(--transition);
+                         color: var(--color-secondary);
+                    }
+                    @media #{$smlg-device}{
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                    @media #{$sm-layout}{
+                        font-size: 12px;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,81 @@
+/*-------------------------
+   Community Styles
+-------------------------*/
+
+
+
+.community-layout1{
+    background-color: #EEF1F4;
+    .community-wrp{
+        .community-content-wrp{
+            margin-left: 150px;
+            .title-wrp{
+                .community-title{       
+                    margin-bottom: 30px; 
+                    .title{
+                        span{
+                            color: #D3224D;
+                        }
+                    }    
+                }
+                .community-details{
+                    margin-bottom: 60px;
+                    p{
+                        color: #506172;
+                        font-weight: 400;
+                        margin: 0;
+                    }
+                }
+            }
+            .community-card-wrp{
+                gap: 24px;
+                .community-wrp{
+                    background-color: var(--color-white);
+                    padding: 40px 24px;
+                    .community-img-1{
+                        background-color: #F4F9F7;
+                        padding: 25px 21px;
+                        border-radius: 50%;
+                    }
+                    .community-img-2{
+                        background-color: #FEF9EC;
+                        padding: 25px 25px;
+                        border-radius: 50%;
+                    }
+                    .community-img-3{
+                        background-color: #EEF1F4;
+                        padding: 25px 25px;
+                        border-radius: 50%;
+                    }
+                    .community-img-4{
+                        background-color: #FFF6F8;
+                        padding: 25px 25px;
+                        border-radius: 50%;
+                    }
+                    .community-details-title{
+                        margin-left: 24px;
+                        .title{
+                            margin-bottom: 16px;
+                            a{
+                                color: #070E20;
+                                font-size: 24px;
+                                font-weight: 500;
+                                &:hover{
+                                    color: #D3224D;
+                                }
+                            }
+                        }
+                        p{
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }  
+        .community-img-wrp{
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

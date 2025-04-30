@@ -1,0 +1,145 @@
+/*-------------------------
+   Header Top Styles
+-------------------------*/
+
+
+
+.stadum-header-top{
+    background-color: #081933;
+    padding: 25px 0;
+    .header-top-wrp{
+        display: flex;
+        justify-content: space-between;
+        .info-wrp {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            span{
+                color: var(--color-white);
+                font-size: 14px;
+            }
+            .location-title {
+              display: flex;
+              align-items: center;
+              gap: 8px;
+            }
+          
+            .email-wrp {
+              position: relative;
+              display: flex;
+              align-items: center;
+              gap: 8px; 
+              padding-left: 20px; 
+          
+              &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 1px;
+                height: 14px;
+                background-color: #d1d5db;
+              }
+            }
+          }
+        .login-reg-wrp{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .icon{
+                color: var(--color-white);
+                font-size: 14px;
+                margin-right: 8px;
+            }
+            .slash{
+                color: var(--color-white);
+                font-size: 14px;
+                margin: 0 2px 0 2px;
+            }
+            a{
+                color: var(--color-white);
+                font-size: 14px;
+            }
+            .faq{
+                position: relative;
+                padding-left: 20px;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 60%;
+                    transform: translateY(-50%);
+                    width: 1px;
+                    height: 14px;
+                    background-color: #d1d5db;
+                  }
+            }
+        }
+        .flag-dropdown {
+            position: relative;
+            padding-left: 20px;
+            &::before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 60%;
+                transform: translateY(-50%);
+                width: 1px;
+                height: 14px;
+                background-color: #d1d5db;
+              }
+            .flag-dropdown-button {
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                background: none;
+                padding: 0;
+                border: none;
+                cursor: pointer;
+                color: var(--color-white);
+                
+                img {
+                    width: 24px;
+                    height: 16px;
+                    object-fit: cover;
+                }
+            }
+            
+            .flag-dropdown-menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                right: 0;
+                background-color: white;
+                border: 1px solid #e0e0e0;
+                border-radius: 4px;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                z-index: 10;
+                
+                &.show {
+                    display: block;
+                }
+                
+                li {
+                    padding: 8px 12px;
+                    cursor: pointer;
+                    display: flex;
+                    align-items: center;
+                    
+                    &:hover {
+                        background-color: #f5f5f5;
+                    }
+                    
+                    img {
+                        width: 24px;
+                        height: 16px;
+                        margin-right: 10px;
+                        object-fit: cover;
+                    }
+                }
+            }
+        }
+    }
+      
+}

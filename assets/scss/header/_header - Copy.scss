@@ -1,0 +1,64 @@
+/*-------------------------
+   Header Styles
+-------------------------*/
+
+ul,li{
+    list-style: none;
+}
+
+
+
+.sark-header-layout-1{
+    .sark-header{
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        padding: 21px 0 21px;
+        .sark-header-menu-wrp{
+            display: flex;
+            .sark-header-menu{
+                margin-top: 6px;
+                ul{
+                    display: flex;
+                    li{
+                        margin-left: 62px;
+                        a{
+                            font-size: 16px;
+                            font-weight: 500;
+                            line-height: 24px;
+                            font-family: var(--font-secondary);
+                            color: var(--color-ash);
+                        }
+                    }
+                }
+            }
+        }
+        .sark-header-signup-wrp{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            .sark-sign-in{
+                a{
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    font-family: var(--font-secondary);
+                    color: var(--color-ash);
+                }
+            }
+            .sark-sign-up{
+                margin-left: 35px;
+                a{
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    font-family: var(--font-secondary);
+                    color: var(--color-white);
+                    background-color: var(--color-ash);
+                    padding: 15px 30px;
+                    border-radius: 12px;
+                }
+            }
+        }
+    }
+}

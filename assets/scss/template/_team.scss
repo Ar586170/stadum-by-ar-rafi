@@ -1,0 +1,321 @@
+/*-------------------------
+   Story Styles
+-------------------------*/
+
+
+
+
+.team-layout-1{
+   padding: 120px 0 160px;
+   background-color: var(--color-black);
+   .keeper-team{
+      .keeper-team-header-wrp{
+         .sectio-title{
+            margin-bottom: 40px;
+         }
+         .team-title{
+            margin-bottom: 120px;
+            h2{
+               margin: 0;
+               color: var(--color-white);
+               line-height: 80px;
+               @media #{$md-layout}{
+                  font-size: 46px;
+                  line-height: 60px;
+               }
+               @media #{$sm-layout}{
+                  font-size: 80px;
+                  line-height: 92px;
+               }
+               @media #{$small-mobile}{
+                  font-size: 70px;
+                  line-height: 82px;
+               }
+            }
+            @media #{$sm-layout}{
+               margin-bottom: 0;
+            }
+         }
+      }
+      .team-member-wrp{
+         .member-img{
+            margin-bottom: 40px;
+            @media #{$smlg-device}{
+               margin-bottom: 20px;
+            }
+            @media #{$sm-layout}{
+              margin-bottom: 30px;
+            }
+         }
+         .member-details-wrp{
+            display: flex;
+            align-items: baseline;
+            .member-details{
+               .member-name{
+                  margin: 0;
+                  a{
+                     line-height: 42px;
+                     margin-bottom: 16px;
+                     color: var(--color-white);
+                     transition: var(--transition);
+                     &:hover{
+                        color: var(--color-hex);
+                     }
+                     @media #{$smlg-device}{
+                        font-size: 20px;
+                        margin-bottom: 0;
+                     }
+                     @media #{$md-layout}{
+                        font-size: 9px;
+                        line-height: 20px;
+                     }
+                     @media #{$sm-layout}{
+                        font-size: 30px;
+                        margin-bottom: 16px;
+                     }
+                  }
+               }
+               .member-title{
+                  font-size: 18px;
+                  font-weight: 500;
+                  line-height: 22px;
+                  color: #A0A0A0;
+                  font-family: var(--font-primary);
+                  @media #{$smlg-device}{
+                     font-size: 14px;
+                     line-height: 22px;
+                  }
+                  @media #{$md-layout}{
+                     font-size: 6px;
+                     line-height: 20px;
+                  }
+                  @media #{$sm-layout}{
+                     display: flex;
+                     font-size: 18px;
+                  }
+               }
+            }
+            .member-social-media{
+               padding-left: 80px;
+               ul{
+                  display: flex;
+                  li{
+                     margin-right: 20px;                        
+                     i{
+                        font-size: 24px;
+                        color: var(--color-white);
+                        transition: var(--transition);
+                        &:hover{
+                           color: var(--color-hex);
+                        }
+                        @media #{$smlg-device}{
+                           font-size: 18px;
+                        }
+                        @media #{$md-layout}{
+                           font-size: 12px;
+                        }
+                        @media #{$sm-layout}{
+                           font-size: 24px;
+                        }
+                     }
+                  }
+               }
+            }
+            @media #{$sm-layout}{
+               justify-content: center;
+            }
+         }
+         @media #{$sm-layout}{
+            text-align: center;
+            padding: 120px 0 120px 0;
+         }
+      }
+      .team-member-wrp-2{
+         margin-top: 60px;
+         .member-img{
+            margin-bottom: 40px;
+            @media #{$smlg-device}{
+               margin-bottom: 20px;
+            }
+            @media #{$sm-layout}{
+              margin-bottom: 30px;
+            }
+         }
+         .member-details-wrp{
+            display: flex;
+            align-items: baseline;
+            .member-details{
+               .member-name{
+                  margin: 0;
+                  a{
+                     line-height: 42px;
+                     margin-bottom: 16px;
+                     color: var(--color-white);
+                     transition: var(--transition);
+                     &:hover{
+                        color: var(--color-hex);
+                     }
+                     @media #{$smlg-device}{
+                        font-size: 20px;
+                        margin-bottom: 0;
+                     }
+                     @media #{$md-layout}{
+                        font-size: 9px;
+                        line-height: 20px;
+                     }
+                     @media #{$sm-layout}{
+                        font-size: 30px;
+                        margin-bottom: 16px;
+                     }
+                  }
+               }
+               .member-title{
+                  font-size: 18px;
+                  font-weight: 500;
+                  line-height: 22px;
+                  color: #A0A0A0;
+                  font-family: var(--font-primary);
+                  @media #{$smlg-device}{
+                     font-size: 14px;
+                     line-height: 22px;
+                  }
+                  @media #{$md-layout}{
+                     font-size: 6px;
+                     line-height: 20px;
+                  }
+                  @media #{$sm-layout}{
+                     display: flex;
+                     font-size: 18px;
+                  }
+               }
+            }
+            .member-social-media{
+               padding-left: 80px;
+               ul{
+                  display: flex;
+                  li{
+                     margin-right: 20px;                        
+                     i{
+                        font-size: 24px;
+                        color: var(--color-white);
+                        transition: var(--transition);
+                        &:hover{
+                           color: var(--color-hex);
+                        }
+                        @media #{$smlg-device}{
+                           font-size: 18px;
+                        }
+                        @media #{$md-layout}{
+                           font-size: 12px;
+                        }
+                        @media #{$sm-layout}{
+                           font-size: 24px;
+                        }
+                     }
+                  }
+               }
+            }
+            @media #{$sm-layout}{
+               justify-content: center;
+            }
+         }
+         @media #{$sm-layout}{
+            text-align: center;
+         }
+      }
+      .team-member-wrp-3{
+         margin-top: 120px;
+         .member-img{
+            margin-bottom: 40px;
+            @media #{$smlg-device}{
+               margin-bottom: 20px;
+            }
+            @media #{$sm-layout}{
+              margin-bottom: 30px;
+            }
+         }
+         .member-details-wrp{
+            display: flex;
+            align-items: baseline;
+            .member-details{
+               .member-name{
+                  margin: 0;
+                  a{
+                     line-height: 42px;
+                     margin-bottom: 16px;
+                     color: var(--color-white);
+                     transition: var(--transition);
+                     &:hover{
+                        color: var(--color-hex);
+                     }
+                     @media #{$smlg-device}{
+                        font-size: 20px;
+                        margin-bottom: 0;
+                     }
+                     @media #{$md-layout}{
+                        font-size: 9px;
+                        line-height: 20px;
+                     }
+                     @media #{$sm-layout}{
+                        font-size: 30px;
+                        margin-bottom: 16px;
+                     }
+                  }
+               }
+               .member-title{
+                  font-size: 18px;
+                  font-weight: 500;
+                  line-height: 22px;
+                  color: #A0A0A0;
+                  font-family: var(--font-primary);
+                  @media #{$smlg-device}{
+                     font-size: 14px;
+                     line-height: 22px;
+                  }
+                  @media #{$md-layout}{
+                     font-size: 6px;
+                     line-height: 20px;
+                  }
+                  @media #{$sm-layout}{
+                     display: flex;
+                     font-size: 18px;
+                  }
+               }
+            }
+            .member-social-media{
+               padding-left: 80px;
+               ul{
+                  display: flex;
+                  li{
+                     margin-right: 20px;                        
+                     i{
+                        font-size: 24px;
+                        color: var(--color-white);
+                        transition: var(--transition);
+                        &:hover{
+                           color: var(--color-hex);
+                        }
+                        @media #{$smlg-device}{
+                           font-size: 18px;
+                        }
+                        @media #{$md-layout}{
+                           font-size: 12px;
+                        }
+                        @media #{$sm-layout}{
+                           font-size: 24px;
+                        }
+                     }
+                  }
+               }
+            }
+            @media #{$sm-layout}{
+               justify-content: center;
+            }
+         }
+         @media #{$sm-layout}{
+            text-align: center;
+            margin-top: 120px;
+         }
+      }
+   }
+}
