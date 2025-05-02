@@ -11,7 +11,7 @@
             margin-bottom: 56px;
             display: flex;
             justify-content: space-between;
-            align-items: center;
+            align-items: end;
             .popular-course-btn{
                 ul{
                     display: flex;
@@ -22,11 +22,17 @@
                             background-color: transparent;
                             padding: 10px 20px;            
                             border: 1px solid #D3DBE2;
+                            transition: var(--transition);
+                            &:hover{
+                                background-color: #D3224D;
+                                color: var(--color-white);
+                                border: 1px solid #D3224D;
+                            }
                         }
                         .active{
                             background-color: #D3224D;
                             color: var(--color-white);
-                            border: none;
+                            border: 1px solid #D3224D;
                         }
                     }
                 }
@@ -37,8 +43,14 @@
             border: 1px solid #D3DBE2;
             .popular-case-card-img{
                 margin-bottom: 32px;
+                position: relative;
+                overflow: hidden;
+                width: 100%;
                 img{
-                    
+                    transition: var(--transition);
+                    transform: scale(1);
+                    overflow: hidden;
+                    width: 100%;
                 }
             }
             .card-content{
@@ -168,8 +180,28 @@
                         background-color: transparent;
                         padding: 10px 20px;
                         border: 1px solid #D3DBE2;
+                        transition: var(--transition);
+                        svg{
+                            path{
+                                fill: #081933;
+                                transition: var(--transition);
+                            }
+                        }
+                        &:hover{
+                            color: var(--color-white);
+                            background-color: #D3224D;
+                            border-color: #D3224D;
+                            svg{
+                                path{
+                                    fill: var(--color-white);
+                                }
+                            }
+                        }
                     }
                 }
+            }
+            &:hover .popular-case-card-img img{
+                transform: scale(1.1);
             }
         }
         .section-btn{

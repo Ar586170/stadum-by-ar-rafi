@@ -213,6 +213,12 @@ ul,li{
             display: block;
             position: relative;
             transition: var(--transition);
+            >span{
+                i{
+                    font-size: 14px;
+                    margin-left: 10px;
+                }
+            }
             &:hover {
                 color: #D3224D;
                 &::before {
@@ -221,7 +227,7 @@ ul,li{
                 }
             }
             &.active {
-                color: var(--color-primary);
+                color: #D3224D;
                 &::before {
                     width: 100%;
                     opacity: 1;

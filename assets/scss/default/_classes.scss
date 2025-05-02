@@ -74,7 +74,7 @@
         width: 36px;
         height: 1px;
         background-color: #D3224D;
-      }
+    }
 }
 
 
@@ -87,20 +87,23 @@
         border-radius: 0;
         display: inline-flex;
         align-items: center;
+        transition: var(--transition);
         svg {
             position: relative;
             top: 0;
             margin-left: 8px;
             fill: var(--color-white);
-            transition: fill 0.3s ease;
+            transition: var(--transition);
         }
         &:hover svg path {
-            fill: #000;
+            fill: #081933;
+            transition: var(--transition);
         }
         &:hover {
             background-color: transparent;
             border: 1px solid #D3224D;
-            color: #000;
+            color: #081933;
+            transition: var(--transition);
         }
     }
 }
@@ -113,19 +116,23 @@
         border-radius: 0;
         display: inline-flex;
         align-items: center;
+        transition: var(--transition);
         svg {
             position: relative;
             top: 0;
             margin-left: 8px;
-            transition: fill 0.3s ease;
+            fill: #081933;
+            transition: var(--transition);
         }
         &:hover svg path {
             fill: var(--color-white);
+            transition: var(--transition);
         }
         &:hover {
             background-color: #D3224D;
+            border: 1px solid #D3224D;
             color: var(--color-white);
-            border: #D3224D;
+            transition: var(--transition);
         }
     }
 }

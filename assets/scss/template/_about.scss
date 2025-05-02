@@ -7,10 +7,32 @@
 .stadum-about{
    .about-img{
       position: relative;
+      .about-img-1{
+         position: relative;
+         z-index: 10;
+      }
+      .about-img-2{
+         position: absolute;
+         top: 50%;
+         left: 40%;
+      }
+      .about-img-3{
+         position: absolute;
+         top: 75%;
+         left: 19%;
+         z-index: 12;
+      }
       .shape{
          position: absolute;
-         top: 67%;
+         top: 95%;
          left: -34px;
+         z-index: 11;
+      }
+      .shape-2{
+         position: absolute;
+         top: 8%;
+         right: 27%;
+         z-index: 8;
       }
    }
    .about-details-wrp{
@@ -19,7 +41,9 @@
          margin-bottom: 64px;
          .title{
             span{
-               color: #D3224D;
+               a{
+                  color: #D3224D;
+               }
             }
          }
       }

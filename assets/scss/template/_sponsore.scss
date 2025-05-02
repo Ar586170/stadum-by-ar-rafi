@@ -1,0 +1,58 @@
+/*-------------------------
+   Sponsore Styles
+-------------------------*/
+
+
+.sponsore-layout1 {
+    background: var(--digital-primary-color);
+    font-family: var(--font-archivo);
+    padding: 0 0 120px;
+  
+    .col {
+      transition: all 0.2s;
+  
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .swiper-wrapper {
+      transition-timing-function: linear !important;
+      .element-spacing{
+        gap: 0;
+      }
+    }
+  
+    .swiper-slide {
+      overflow: hidden;
+      background-position: center;
+      background-size: cover;
+        gap: 20px;
+        flex-direction: row;
+        align-items: center;
+        flex-basis: max-content;
+        img{
+            margin-left: 20px;
+        }
+      .title {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 46px;
+        text-transform: capitalize;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+    }
+  
+    .swiper {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  

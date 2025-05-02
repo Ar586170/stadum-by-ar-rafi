@@ -7,6 +7,7 @@
 .choose-us-layout1{
     background-color: #FFF6F8;
     .choose-us-wrp{
+      position: relative;
         .choose-us-content-wrp{
             margin-left: 150px;
             .title-wrp{
@@ -39,7 +40,28 @@
                     position: absolute;
                     right: 58%;
                     top: 8px;
+                    animation: movingrightleft 20s linear infinite;
                 }
+            }
+            @keyframes movingrightleft {
+              0% {
+                transform: translateX(0) rotate(0deg);
+              }
+              20% {
+                transform: translateX(60px) rotate(15deg);
+              }
+              40% {
+                transform: translateX(-50px) rotate(-15deg);
+              }
+              60% {
+                transform: translateX(40px) rotate(10deg);
+              }
+              80% {
+                transform: translateX(-30px) rotate(-10deg);
+              }
+              100% {
+                transform: translateX(0) rotate(0deg);
+              }
             } 
         }  
         .choose-us-img-wrp{
@@ -85,6 +107,12 @@
                 }
              }
         }
+        .choose-us-shape{
+          position: absolute;
+          right: 48%;
+          top: 20%;
+          animation: movingrightleft 20s linear infinite;
+      }
     }
 }
 

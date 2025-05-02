@@ -6,7 +6,7 @@
 
 .stadum-header-top{
     background-color: #081933;
-    padding: 25px 0;
+    padding: 18px 0;
     .header-top-wrp{
         display: flex;
         justify-content: space-between;
@@ -29,8 +29,13 @@
               display: flex;
               align-items: center;
               gap: 8px; 
-              padding-left: 20px; 
-          
+              padding-left: 20px;
+              a {
+                color: var(--color-white);
+                &:hover {
+                    color: #D3224D;
+                }
+              }
               &::before {
                 content: "";
                 position: absolute;
@@ -47,6 +52,12 @@
             display: flex;
             align-items: center;
             gap: 20px;
+            a {
+                color: var(--color-white);
+                &:hover {
+                    color: #D3224D;
+                }
+              }
             .icon{
                 color: var(--color-white);
                 font-size: 14px;

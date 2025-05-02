@@ -14,7 +14,9 @@
                     margin-bottom: 30px; 
                     .title{
                         span{
-                            color: #D3224D;
+                            a{
+                                color: #D3224D;
+                            }
                         }
                     }    
                 }
@@ -69,12 +71,33 @@
                             margin: 0;
                         }
                     }
+                    &:hover{
+                        .community-img-1 img{
+                            animation: fadeInDown 1s forwards;
+                        }
+                        .community-img-2 img{
+                            animation: fadeInDown 1s forwards;
+                        }
+                        .community-img-3 img{
+                            animation: fadeInDown 1s forwards;
+                        }
+                        .community-img-4 img{
+                            animation: fadeInDown 1s forwards;
+                        }
+                      } 
                 }
             }
         }  
         .community-img-wrp{
+            position: relative;
             img{
                 width: 100%;
+            }
+            .shape{
+                position: absolute;
+                bottom: 78%;
+                left: 80%;  
+                z-index: 2;
             }
         }
     }

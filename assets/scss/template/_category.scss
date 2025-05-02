@@ -27,13 +27,18 @@
                         &:hover{
                             color: #D3224D;
                         }
-                    }
+                  }
                 }
                 span{
                     color: #03060E;
                     font-weight: 500;
                 }
             }
+            &:hover{
+              .category-img img{
+                  animation: fadeInDown 1s forwards;
+              }
+            } 
         }
         .section-btn-2{
             margin-top: 56px;
@@ -52,5 +57,26 @@
         position: absolute;
         left: 4%;
         top: 78%;
+        animation: movingrightleft 20s linear infinite;
     }
+    @keyframes movingrightleft {
+        0% {
+          transform: translateX(0) rotate(0deg);
+        }
+        20% {
+          transform: translateX(60px) rotate(15deg);
+        }
+        40% {
+          transform: translateX(-50px) rotate(-15deg);
+        }
+        60% {
+          transform: translateX(40px) rotate(10deg);
+        }
+        80% {
+          transform: translateX(-30px) rotate(-10deg);
+        }
+        100% {
+          transform: translateX(0) rotate(0deg);
+        }
+      } 
 }

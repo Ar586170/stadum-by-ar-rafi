@@ -83,17 +83,19 @@ STYLESHEET INDEXING
 @import "template/popular-case";
 @import "template/instructors";
 @import "template/choose-us";
+@import "template/testimonial";
 @import "template/partner";
 @import "template/community";
 @import "template/mentorship";
 @import "template/call-to-action";
-
+@import "template/sponsore";
 
 /*=======================================================================
 4.Blocks Styles 
 =========================================================================*/
 @import "header/header-top";
 @import "header/header";
+@import "blog/blog";
 @import "footer/footer";
 
 /*=======================================================================

@@ -12,11 +12,13 @@
     <link rel="shortcut icon" type="image/x-icon" href="assets/media/favicon.png">
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/vendor/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/vendor/animate.css">
     <link rel="stylesheet" href="assets/css/vendor/slick.css">
     <link rel="stylesheet" href="assets/css/vendor/slick-theme.css">
     <link rel="stylesheet" href="assets/css/vendor/magnific-popup.css">
     <link rel="stylesheet" href="assets/css/vendor/odometer-theme-default.css">
     <link rel="stylesheet" href="assets/css/vendor/sal.css">
+    <link rel="stylesheet" href="assets/css/vendor/swiper.css">
 
     <!-- Site Stylesheet -->
     <link rel="stylesheet" href="assets/css/app.css">
@@ -47,7 +49,7 @@
                             </span>
                             <span class="email-wrp">
                                 <i class="fas fa-envelope"></i>
-                                infomail@example.com
+                                <a href="#">infomail@example.com</a>
                             </span>
                         </div>
                         <div class="login-reg-wrp">
@@ -126,7 +128,7 @@
                                 </div>
                                 <ul class="mainmenu">
                                     <li>
-                                        <a href="#">Home</a>
+                                        <a href="#" class="active">Home<span><i class="far fa-chevron-down"></i></span></a>
                                     </li>
                                     <li>
                                         <a href="#">About us</a>
@@ -135,7 +137,7 @@
                                         <a href="#">Academics</a>
                                     </li>
                                     <li>
-                                        <a href="#">Pages</a>
+                                        <a href="#">Pages<span><i class="far fa-chevron-down"></i></span></a>
                                     </li>
                                     <li>
                                         <a href="#">Admission</a>
@@ -399,10 +401,21 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
-                            <div class="about-img" data-sal="slide-right" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
-                                <img src="assets/media/about/about.png" alt="img">
-                                <div class="shape">
+                            <div class="about-img">
+                                <div class="about-img-1" data-sal="slide-right" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                    <img src="assets/media/about/about-1.png" alt="img">
+                                </div>
+                                <div class="about-img-2" data-sal="slide-left" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                    <img src="assets/media/about/about-2.png" alt="img">
+                                </div>
+                                <div class="about-img-3" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                    <img src="assets/media/about/exprerience.png" alt="img">
+                                </div>
+                                <div class="shape" data-sal="slide-up" data-sal-delay="400" data-sal-duration="1200" data-sal-easing="ease-out-back">
                                     <img src="assets/media/elements.png" alt="shape">
+                                </div>
+                                <div class="shape-2" data-sal="slide-left" data-sal-delay="500" data-sal-duration="12000" data-sal-easing="ease-out-back">
+                                    <img src="assets/media/about/pattern.png" alt="shape">
                                 </div>
                             </div>
                         </div>
@@ -412,7 +425,7 @@
                                     <span>ABOUT US</span>
                                 </div>
                                 <div class="about-title">
-                                    <h2 class="title">Delivering Top <span>Motivational</span><br>Courses To You</h2>
+                                    <h2 class="title">Delivering Top <span><a href="#">Motivational</a></span><br>Courses To You</h2>
                                 </div>
                                 <div class="about-details-txt-wrp">
                                     <div class="about-details-txt">
@@ -449,8 +462,15 @@
                                 <div class="section-btn">
                                     <a class="btn" href="about.html">
                                         <span>Apply To Stadum</span>
-                                        <svg width="20" height="20" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M8.00003 0.414398C8.00003 1.1106 8.68997 2.1524 9.38743 3.02733C10.2856 4.1538 11.3574 5.13786 12.5874 5.8892C13.5088 6.4518 14.6276 6.99186 15.5264 6.99186M8.00003 13.5856C8.00003 12.8894 8.68997 11.8476 9.38743 10.9727C10.2856 9.84626 11.3574 8.86213 12.5874 8.1108C13.5088 7.5482 14.6276 7.00813 15.5264 7.00813M15.5264 7H0.473633" stroke="white" />
+                                        <svg width="20" height="20" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_706_4588)">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1042 -1.66132C17.0962 0.531408 17.4796 2.7041 18.2326 4.73269C18.9855 6.76129 20.0933 8.60608 21.4927 10.1617C22.892 11.7174 24.5555 12.9534 26.3882 13.7992C28.2209 14.6451 30.1869 15.0842 32.1739 15.0915L32.1736 15.1623L32.1737 15.1623L32.1649 17.5622L32.1648 17.5622L32.1646 17.633C30.1776 17.6257 28.2084 18.0504 26.3696 18.8828C24.5307 19.7152 22.8582 20.939 21.4475 22.4843C20.0368 24.0297 18.9155 25.8663 18.1477 27.8893C17.3799 29.9123 16.9805 32.0821 16.9725 34.2749L14.5189 34.2659C14.5521 25.2084 20.1472 19.2183 27.6586 17.5457L0.165097 17.445L0.173893 15.045L27.6676 15.1457C20.1686 13.4182 14.6174 7.38722 14.6506 -1.67031L17.1042 -1.66132Z" fill="white" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_706_4588">
+                                                    <rect width="32" height="32" fill="white" transform="translate(0.228027 0.245117) rotate(0.209999)" />
+                                                </clipPath>
+                                            </defs>
                                         </svg>
                                     </a>
                                 </div>
@@ -603,8 +623,15 @@
                         <div class="section-btn-2" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
                             <a class="btn" href="about.html">
                                 <span>Browse All Categories</span>
-                                <svg width="20" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                <svg width="20" height="20" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_708_4588)">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.037 -1.66309C17.037 0.529653 17.4283 2.70092 18.1887 4.72675C18.9491 6.75257 20.0637 8.59328 21.4687 10.1438C22.8737 11.6943 24.5418 12.9242 26.3775 13.7633C28.2133 14.6025 30.1809 15.0343 32.1679 15.0343V15.1051H32.168V17.5051H32.1679V17.5759C30.1809 17.5759 28.2133 18.0078 26.3775 18.8469C24.5418 19.686 22.8737 20.916 21.4687 22.4665C20.0637 24.017 18.9491 25.8577 18.1887 27.8835C17.4283 29.9093 17.037 32.0806 17.037 34.2733H14.5833C14.5833 25.2158 20.1565 19.2052 27.6617 17.5051L0.167969 17.5051L0.167969 15.1051L27.6619 15.1051C20.1566 13.4051 14.5833 7.3945 14.5833 -1.66309H17.037Z" fill="#081933" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_708_4588">
+                                            <rect width="32" height="32" fill="white" transform="translate(0.167969 0.305176)" />
+                                        </clipPath>
+                                    </defs>
                                 </svg>
                             </a>
                         </div>
@@ -617,7 +644,7 @@
             <div class="bg-shape-2">
                 <img src="assets/media/category/bg-shape-2.png" alt="shape-2">
             </div>
-            <div class="section-shape">
+            <div class="section-shape" data-sal="slide-right" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
                 <img src="assets/media/scetion-shape.png" alt="shape">
             </div>
         </section>
@@ -681,13 +708,20 @@
                                         <div class="admin">
                                             <img src="assets/media/popular-case/admin-1.png" alt="admin">
                                             <div class="admin-details">
-                                                <h3 class="title">Michel John</h3>
+                                                <h3 class="title"><a href="#">Albert James</a></h3>
                                             </div>
                                         </div>
                                         <div class="enroll-btn">
                                             <a href="#">Enroll Now
-                                                <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                                <svg width="16" height="16" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_706_4588)">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1042 -1.66132C17.0962 0.531408 17.4796 2.7041 18.2326 4.73269C18.9855 6.76129 20.0933 8.60608 21.4927 10.1617C22.892 11.7174 24.5555 12.9534 26.3882 13.7992C28.2209 14.6451 30.1869 15.0842 32.1739 15.0915L32.1736 15.1623L32.1737 15.1623L32.1649 17.5622L32.1648 17.5622L32.1646 17.633C30.1776 17.6257 28.2084 18.0504 26.3696 18.8828C24.5307 19.7152 22.8582 20.939 21.4475 22.4843C20.0368 24.0297 18.9155 25.8663 18.1477 27.8893C17.3799 29.9123 16.9805 32.0821 16.9725 34.2749L14.5189 34.2659C14.5521 25.2084 20.1472 19.2183 27.6586 17.5457L0.165097 17.445L0.173893 15.045L27.6676 15.1457C20.1686 13.4182 14.6174 7.38722 14.6506 -1.67031L17.1042 -1.66132Z" fill="white" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_706_4588">
+                                                            <rect width="32" height="32" fill="white" transform="translate(0.228027 0.245117) rotate(0.209999)" />
+                                                        </clipPath>
+                                                    </defs>
                                                 </svg>
                                             </a>
                                         </div>
@@ -725,13 +759,20 @@
                                         <div class="admin">
                                             <img src="assets/media/popular-case/admin-2.png" alt="admin">
                                             <div class="admin-details">
-                                                <h3 class="title">Michel John</h3>
+                                                <h3 class="title"><a href="#">Michel John</a></h3>
                                             </div>
                                         </div>
                                         <div class="enroll-btn">
                                             <a href="#">Enroll Now
-                                                <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                                <svg width="16" height="16" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_706_4588)">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1042 -1.66132C17.0962 0.531408 17.4796 2.7041 18.2326 4.73269C18.9855 6.76129 20.0933 8.60608 21.4927 10.1617C22.892 11.7174 24.5555 12.9534 26.3882 13.7992C28.2209 14.6451 30.1869 15.0842 32.1739 15.0915L32.1736 15.1623L32.1737 15.1623L32.1649 17.5622L32.1648 17.5622L32.1646 17.633C30.1776 17.6257 28.2084 18.0504 26.3696 18.8828C24.5307 19.7152 22.8582 20.939 21.4475 22.4843C20.0368 24.0297 18.9155 25.8663 18.1477 27.8893C17.3799 29.9123 16.9805 32.0821 16.9725 34.2749L14.5189 34.2659C14.5521 25.2084 20.1472 19.2183 27.6586 17.5457L0.165097 17.445L0.173893 15.045L27.6676 15.1457C20.1686 13.4182 14.6174 7.38722 14.6506 -1.67031L17.1042 -1.66132Z" fill="white" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_706_4588">
+                                                            <rect width="32" height="32" fill="white" transform="translate(0.228027 0.245117) rotate(0.209999)" />
+                                                        </clipPath>
+                                                    </defs>
                                                 </svg>
                                             </a>
                                         </div>
@@ -769,13 +810,20 @@
                                         <div class="admin">
                                             <img src="assets/media/popular-case/admin-3.png" alt="admin">
                                             <div class="admin-details">
-                                                <h3 class="title">Michel John</h3>
+                                                <h3 class="title"><a href="#">Albert James</a></h3>
                                             </div>
                                         </div>
                                         <div class="enroll-btn">
                                             <a href="#">Enroll Now
-                                                <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                                <svg width="16" height="16" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_706_4588)">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1042 -1.66132C17.0962 0.531408 17.4796 2.7041 18.2326 4.73269C18.9855 6.76129 20.0933 8.60608 21.4927 10.1617C22.892 11.7174 24.5555 12.9534 26.3882 13.7992C28.2209 14.6451 30.1869 15.0842 32.1739 15.0915L32.1736 15.1623L32.1737 15.1623L32.1649 17.5622L32.1648 17.5622L32.1646 17.633C30.1776 17.6257 28.2084 18.0504 26.3696 18.8828C24.5307 19.7152 22.8582 20.939 21.4475 22.4843C20.0368 24.0297 18.9155 25.8663 18.1477 27.8893C17.3799 29.9123 16.9805 32.0821 16.9725 34.2749L14.5189 34.2659C14.5521 25.2084 20.1472 19.2183 27.6586 17.5457L0.165097 17.445L0.173893 15.045L27.6676 15.1457C20.1686 13.4182 14.6174 7.38722 14.6506 -1.67031L17.1042 -1.66132Z" fill="white" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_706_4588">
+                                                            <rect width="32" height="32" fill="white" transform="translate(0.228027 0.245117) rotate(0.209999)" />
+                                                        </clipPath>
+                                                    </defs>
                                                 </svg>
                                             </a>
                                         </div>
@@ -813,13 +861,20 @@
                                         <div class="admin">
                                             <img src="assets/media/popular-case/admin-4.png" alt="admin">
                                             <div class="admin-details">
-                                                <h3 class="title">Michel John</h3>
+                                                <h3 class="title"><a href="#">By: Rebeka Smith</a></h3>
                                             </div>
                                         </div>
                                         <div class="enroll-btn">
                                             <a href="#">Enroll Now
-                                                <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                                <svg width="16" height="16" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_706_4588)">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1042 -1.66132C17.0962 0.531408 17.4796 2.7041 18.2326 4.73269C18.9855 6.76129 20.0933 8.60608 21.4927 10.1617C22.892 11.7174 24.5555 12.9534 26.3882 13.7992C28.2209 14.6451 30.1869 15.0842 32.1739 15.0915L32.1736 15.1623L32.1737 15.1623L32.1649 17.5622L32.1648 17.5622L32.1646 17.633C30.1776 17.6257 28.2084 18.0504 26.3696 18.8828C24.5307 19.7152 22.8582 20.939 21.4475 22.4843C20.0368 24.0297 18.9155 25.8663 18.1477 27.8893C17.3799 29.9123 16.9805 32.0821 16.9725 34.2749L14.5189 34.2659C14.5521 25.2084 20.1472 19.2183 27.6586 17.5457L0.165097 17.445L0.173893 15.045L27.6676 15.1457C20.1686 13.4182 14.6174 7.38722 14.6506 -1.67031L17.1042 -1.66132Z" fill="white" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_706_4588">
+                                                            <rect width="32" height="32" fill="white" transform="translate(0.228027 0.245117) rotate(0.209999)" />
+                                                        </clipPath>
+                                                    </defs>
                                                 </svg>
                                             </a>
                                         </div>
@@ -857,13 +912,20 @@
                                         <div class="admin">
                                             <img src="assets/media/popular-case/admin-5.png" alt="admin">
                                             <div class="admin-details">
-                                                <h3 class="title">Michel John</h3>
+                                                <h3 class="title"><a href="#">By: Jenny Wilson</a></h3>
                                             </div>
                                         </div>
                                         <div class="enroll-btn">
                                             <a href="#">Enroll Now
-                                                <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                                <svg width="16" height="16" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_706_4588)">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1042 -1.66132C17.0962 0.531408 17.4796 2.7041 18.2326 4.73269C18.9855 6.76129 20.0933 8.60608 21.4927 10.1617C22.892 11.7174 24.5555 12.9534 26.3882 13.7992C28.2209 14.6451 30.1869 15.0842 32.1739 15.0915L32.1736 15.1623L32.1737 15.1623L32.1649 17.5622L32.1648 17.5622L32.1646 17.633C30.1776 17.6257 28.2084 18.0504 26.3696 18.8828C24.5307 19.7152 22.8582 20.939 21.4475 22.4843C20.0368 24.0297 18.9155 25.8663 18.1477 27.8893C17.3799 29.9123 16.9805 32.0821 16.9725 34.2749L14.5189 34.2659C14.5521 25.2084 20.1472 19.2183 27.6586 17.5457L0.165097 17.445L0.173893 15.045L27.6676 15.1457C20.1686 13.4182 14.6174 7.38722 14.6506 -1.67031L17.1042 -1.66132Z" fill="white" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_706_4588">
+                                                            <rect width="32" height="32" fill="white" transform="translate(0.228027 0.245117) rotate(0.209999)" />
+                                                        </clipPath>
+                                                    </defs>
                                                 </svg>
                                             </a>
                                         </div>
@@ -901,13 +963,20 @@
                                         <div class="admin">
                                             <img src="assets/media/popular-case/admin-6.png" alt="admin">
                                             <div class="admin-details">
-                                                <h3 class="title">Michel John</h3>
+                                                <h3 class="title"><a href="#">By: Maliha Doe</a></h3>
                                             </div>
                                         </div>
                                         <div class="enroll-btn">
                                             <a href="#">Enroll Now
-                                                <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                                <svg width="16" height="16" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <g clip-path="url(#clip0_706_4588)">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1042 -1.66132C17.0962 0.531408 17.4796 2.7041 18.2326 4.73269C18.9855 6.76129 20.0933 8.60608 21.4927 10.1617C22.892 11.7174 24.5555 12.9534 26.3882 13.7992C28.2209 14.6451 30.1869 15.0842 32.1739 15.0915L32.1736 15.1623L32.1737 15.1623L32.1649 17.5622L32.1648 17.5622L32.1646 17.633C30.1776 17.6257 28.2084 18.0504 26.3696 18.8828C24.5307 19.7152 22.8582 20.939 21.4475 22.4843C20.0368 24.0297 18.9155 25.8663 18.1477 27.8893C17.3799 29.9123 16.9805 32.0821 16.9725 34.2749L14.5189 34.2659C14.5521 25.2084 20.1472 19.2183 27.6586 17.5457L0.165097 17.445L0.173893 15.045L27.6676 15.1457C20.1686 13.4182 14.6174 7.38722 14.6506 -1.67031L17.1042 -1.66132Z" fill="white" />
+                                                    </g>
+                                                    <defs>
+                                                        <clipPath id="clip0_706_4588">
+                                                            <rect width="32" height="32" fill="white" transform="translate(0.228027 0.245117) rotate(0.209999)" />
+                                                        </clipPath>
+                                                    </defs>
                                                 </svg>
                                             </a>
                                         </div>
@@ -918,8 +987,15 @@
                         <div class="section-btn text-center" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
                             <a class="btn" href="about.html">
                                 <span>Browse All Courses</span>
-                                <svg width="20" height="20" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M8.00003 0.414398C8.00003 1.1106 8.68997 2.1524 9.38743 3.02733C10.2856 4.1538 11.3574 5.13786 12.5874 5.8892C13.5088 6.4518 14.6276 6.99186 15.5264 6.99186M8.00003 13.5856C8.00003 12.8894 8.68997 11.8476 9.38743 10.9727C10.2856 9.84626 11.3574 8.86213 12.5874 8.1108C13.5088 7.5482 14.6276 7.00813 15.5264 7.00813M15.5264 7H0.473633" stroke="white" />
+                                <svg width="20" height="20" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_706_4588)">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1042 -1.66132C17.0962 0.531408 17.4796 2.7041 18.2326 4.73269C18.9855 6.76129 20.0933 8.60608 21.4927 10.1617C22.892 11.7174 24.5555 12.9534 26.3882 13.7992C28.2209 14.6451 30.1869 15.0842 32.1739 15.0915L32.1736 15.1623L32.1737 15.1623L32.1649 17.5622L32.1648 17.5622L32.1646 17.633C30.1776 17.6257 28.2084 18.0504 26.3696 18.8828C24.5307 19.7152 22.8582 20.939 21.4475 22.4843C20.0368 24.0297 18.9155 25.8663 18.1477 27.8893C17.3799 29.9123 16.9805 32.0821 16.9725 34.2749L14.5189 34.2659C14.5521 25.2084 20.1472 19.2183 27.6586 17.5457L0.165097 17.445L0.173893 15.045L27.6676 15.1457C20.1686 13.4182 14.6174 7.38722 14.6506 -1.67031L17.1042 -1.66132Z" fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_706_4588">
+                                            <rect width="32" height="32" fill="white" transform="translate(0.228027 0.245117) rotate(0.209999)" />
+                                        </clipPath>
+                                    </defs>
                                 </svg>
                             </a>
                         </div>
@@ -967,11 +1043,18 @@
                                 <div class="section-btn">
                                     <a class="btn" href="about.html">
                                         <span>Get More Info</span>
-                                        <svg width="20" height="20" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M8.00003 0.414398C8.00003 1.1106 8.68997 2.1524 9.38743 3.02733C10.2856 4.1538 11.3574 5.13786 12.5874 5.8892C13.5088 6.4518 14.6276 6.99186 15.5264 6.99186M8.00003 13.5856C8.00003 12.8894 8.68997 11.8476 9.38743 10.9727C10.2856 9.84626 11.3574 8.86213 12.5874 8.1108C13.5088 7.5482 14.6276 7.00813 15.5264 7.00813M15.5264 7H0.473633" stroke="white" />
+                                        <svg width="20" height="20" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_706_4588)">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1042 -1.66132C17.0962 0.531408 17.4796 2.7041 18.2326 4.73269C18.9855 6.76129 20.0933 8.60608 21.4927 10.1617C22.892 11.7174 24.5555 12.9534 26.3882 13.7992C28.2209 14.6451 30.1869 15.0842 32.1739 15.0915L32.1736 15.1623L32.1737 15.1623L32.1649 17.5622L32.1648 17.5622L32.1646 17.633C30.1776 17.6257 28.2084 18.0504 26.3696 18.8828C24.5307 19.7152 22.8582 20.939 21.4475 22.4843C20.0368 24.0297 18.9155 25.8663 18.1477 27.8893C17.3799 29.9123 16.9805 32.0821 16.9725 34.2749L14.5189 34.2659C14.5521 25.2084 20.1472 19.2183 27.6586 17.5457L0.165097 17.445L0.173893 15.045L27.6676 15.1457C20.1686 13.4182 14.6174 7.38722 14.6506 -1.67031L17.1042 -1.66132Z" fill="white" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_706_4588">
+                                                    <rect width="32" height="32" fill="white" transform="translate(0.228027 0.245117) rotate(0.209999)" />
+                                                </clipPath>
+                                            </defs>
                                         </svg>
                                     </a>
-                                    <div class="choose-us-shape" data-sal="slide-left" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                    <div class="choose-us-shape" data-sal="slide-left" data-sal-delay="300" data-sal-duration="1200" data-sal-easing="ease-out-back">
                                         <img src="assets/media/arrow.png" alt="img">
                                     </div>
                                 </div>
@@ -989,6 +1072,9 @@
                         </div>
                     </div>
                 </div>
+                <div class="choose-us-shape">
+                    <img src="assets/media/scetion-shape.png" alt="img">
+                </div>
             </div>
         </section>
         <!--=====================================-->
@@ -996,72 +1082,136 @@
         <!--=====================================-->
 
         <!--=====================================-->
-        <!--=        Partner Area Start      =-->
+        <!--=        Testimonial Area Start      =-->
         <!--=====================================-->
-        <section class="partner-layout1 section-padding">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-3">
-                        <div class="partner-wrp" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
-                            <div class="title-wrp">
-                                <div class="section-title">
-                                    <span>PARTNERS</span>
+        <section class="testimonial-layout1 section-padding">
+            <div class="testimonial-wap">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="testimonial-content-wrp">
+                            <div class="title-wrp" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                <div class="section-title-2">
+                                    <span>TESTIMONIALS</span>
                                 </div>
-                                <div class="partner-title">
-                                    <h2 class="title">Learn With Our<br>
-                                        <span>Partners</span>
-                                    </h2>
+                                <div class="testimonial-title">
+                                    <h2 class="title">What They’re<br>
+                                        Talking About Stadum?</h2>
                                 </div>
-                                <div class="partner-details">
-                                    <p>
-                                        At Stadum University we are committed to<br>
-                                        providing a high-quality education
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="section-btn">
-                                <a class="btn" href="#">
-                                    <span>Start Learning</span>
-                                    <svg width="20" height="20" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M8.00003 0.414398C8.00003 1.1106 8.68997 2.1524 9.38743 3.02733C10.2856 4.1538 11.3574 5.13786 12.5874 5.8892C13.5088 6.4518 14.6276 6.99186 15.5264 6.99186M8.00003 13.5856C8.00003 12.8894 8.68997 11.8476 9.38743 10.9727C10.2856 9.84626 11.3574 8.86213 12.5874 8.1108C13.5088 7.5482 14.6276 7.00813 15.5264 7.00813M15.5264 7H0.473633" stroke="white" />
-                                    </svg>
-                                </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <div class="partner-logo-wrp">
-                            <div class="partner-logo" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
-                                <img src="assets/media/partner/partner-1.png" alt="image">
+                        <div class="testimonial-slider" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                            <div class="testimonial-slide">
+                                <div class="testimonial-box">
+                                    <div class="testimonial-content">
+                                        <div class="quote-icon">
+                                            <img src="assets/media/testimonial/quote-icon.png" alt="quote-icon">
+                                        </div>
+                                        <p>
+                                            At Stadum University, we prepare you to launch your
+                                            career by providing a supportive, creative,<br> and professional
+                                            environment from which to learn practical skills and build a
+                                            network of industry<br> contacts. Ducamb welcomed every pain avoided
+                                            but in certa mstances owing to the claims of<br>igation that off bu will
+                                            frequently occuthe
+                                        </p>
+                                        <div class="stars">
+                                            <ul>
+                                                <li><img src="assets/media/testimonial/star.png" alt="stars"></li>
+                                                <li><img src="assets/media/testimonial/star.png" alt="stars"></li>
+                                                <li><img src="assets/media/testimonial/star.png" alt="stars"></li>
+                                                <li><img src="assets/media/testimonial/star.png" alt="stars"></li>
+                                                <li><img src="assets/media/testimonial/star.png" alt="stars"></li>
+                                            </ul>
+                                        </div>
+                                        <div class="author">
+                                            <h3><a href="#">Maliha Elizabeth</a></h3>
+                                            <span class="role">Student</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-image">
+                                    <img src="assets/media/testimonial/testimonial-1.png" alt="Maliha Elizabeth">
+                                </div>
                             </div>
-                            <div class="partner-logo" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
-                                <img src="assets/media/partner/partner-2.png" alt="image">
+                            <div class="testimonial-slide">
+                                <div class="testimonial-box">
+                                    <div class="testimonial-content">
+                                        <div class="quote-icon">
+                                            <img src="assets/media/testimonial/quote-icon.png" alt="quote-icon">
+                                        </div>
+                                        <p>
+                                            At Stadum University, we prepare you to launch your
+                                            career by providing a supportive, creative,<br> and professional
+                                            environment from which to learn practical skills and build a
+                                            network of industry<br> contacts. Ducamb welcomed every pain avoided
+                                            but in certa mstances owing to the claims of<br>igation that off bu will
+                                            frequently occuthe
+                                        </p>
+                                        <div class="stars">
+                                            <ul>
+                                                <li><img src="assets/media/testimonial/star.png" alt="stars"></li>
+                                                <li><img src="assets/media/testimonial/star.png" alt="stars"></li>
+                                                <li><img src="assets/media/testimonial/star.png" alt="stars"></li>
+                                                <li><img src="assets/media/testimonial/star.png" alt="stars"></li>
+                                                <li><img src="assets/media/testimonial/star.png" alt="stars"></li>
+                                            </ul>
+                                        </div>
+                                        <div class="author">
+                                            <h3><a href="#">Maliha Elizabeth</a></h3>
+                                            <span class="role">Student</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-image">
+                                    <img src="assets/media/testimonial/testimonial-1.png" alt="Maliha Elizabeth">
+                                </div>
                             </div>
-                            <div class="partner-logo" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
-                                <img src="assets/media/partner/partner-3.png" alt="image">
-                            </div>
-                            <div class="partner-logo" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
-                                <img src="assets/media/partner/partner-4.png" alt="image">
-                            </div>
-                            <div class="partner-logo" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
-                                <img src="assets/media/partner/partner-5.png" alt="image">
-                            </div>
-                            <div class="partner-logo" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
-                                <img src="assets/media/partner/partner-6.png" alt="image">
-                            </div>
-                            <div class="partner-logo" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
-                                <img src="assets/media/partner/partner-7.png" alt="image">
-                            </div>
-                            <div class="partner-logo" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
-                                <img src="assets/media/partner/partner-8.png" alt="image">
+                            <div class="testimonial-slide">
+                                <div class="testimonial-box">
+                                    <div class="testimonial-content">
+                                        <div class="quote-icon">
+                                            <img src="assets/media/testimonial/quote-icon.png" alt="quote-icon">
+                                        </div>
+                                        <p>
+                                            At Stadum University, we prepare you to launch your
+                                            career by providing a supportive, creative,<br> and professional
+                                            environment from which to learn practical skills and build a
+                                            network of industry<br> contacts. Ducamb welcomed every pain avoided
+                                            but in certa mstances owing to the claims of<br>igation that off bu will
+                                            frequently occuthe
+                                        </p>
+                                        <div class="stars">
+                                            <ul>
+                                                <li><img src="assets/media/testimonial/star.png" alt="stars"></li>
+                                                <li><img src="assets/media/testimonial/star.png" alt="stars"></li>
+                                                <li><img src="assets/media/testimonial/star.png" alt="stars"></li>
+                                                <li><img src="assets/media/testimonial/star.png" alt="stars"></li>
+                                                <li><img src="assets/media/testimonial/star.png" alt="stars"></li>
+                                            </ul>
+                                        </div>
+                                        <div class="author">
+                                            <h3><a href="#">Maliha Elizabeth</a></h3>
+                                            <span class="role">Student</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-image">
+                                    <img src="assets/media/testimonial/testimonial-1.png" alt="Maliha Elizabeth">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="shape" data-sal="slide-left" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                    <img src="assets/media/elements.png" alt="shape">
+                </div>
+                <div class="shape-2" data-sal="slide-left" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                    <img src="assets/media/mask.png" alt="shape">
+                </div>
             </div>
         </section>
         <!--=====================================-->
-        <!--=        Partner Area End       =-->
+        <!--=        Testimonial Area End       =-->
         <!--=====================================-->
 
         <!--=====================================-->
@@ -1076,7 +1226,7 @@
                                 <span>INSTRUCTORS</span>
                             </div>
                             <div class="instructors-title">
-                                <h2 class="title">Our Experienced<br><span>Instructors</span></h2>
+                                <h2 class="title">Our Experienced<br><span><a href="#">Instructors</a></span></h2>
                             </div>
                         </div>
                     </div>
@@ -1085,22 +1235,24 @@
                             <div class="instructors-content-wrp">
                                 <div class="instructors-img-wrp">
                                     <img src="assets/media/instructors/instructors-1.png" alt="Instructor Kristin Watson">
-                                    <div class="instructors-content text-center base">
-                                        <div class="arrow-icon">
-                                            <a href="#">
-                                                <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
-                                                </svg>
-                                            </a>
-                                        </div>
-                                        <h3 class="title"><a href="#">Kristin Watson</a></h3>
-                                        <span class="details">Teacher of Development</span>
-                                        <div class="social-media">
-                                            <ul class="d-flex justify-content-center">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            </ul>
+                                    <div class="instructors-content base">
+                                        <div class="instructors-content-wrp text-center">
+                                            <div class="arrow-icon">
+                                                <a href="#">
+                                                    <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <h3 class="title"><a href="#">Kristin Watson</a></h3>
+                                            <span class="details">Teacher of Development</span>
+                                            <div class="social-media">
+                                                <ul class="d-flex justify-content-center">
+                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1110,22 +1262,24 @@
                             <div class="instructors-content-wrp">
                                 <div class="instructors-img-wrp">
                                     <img src="assets/media/instructors/instructors-2.png" alt="Instructor Cameron Diaz">
-                                    <div class="instructors-content text-center base">
-                                        <div class="arrow-icon">
-                                            <a href="#">
-                                                <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
-                                                </svg>
-                                            </a>
-                                        </div>
-                                        <h3 class="title"><a href="#">Cameron Diaz</a></h3>
-                                        <span class="details">Design Instructor</span>
-                                        <div class="social-media">
-                                            <ul class="d-flex justify-content-center">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            </ul>
+                                    <div class="instructors-content base">
+                                        <div class="instructors-content-wrp text-center">
+                                            <div class="arrow-icon">
+                                                <a href="#">
+                                                    <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <h3 class="title"><a href="#">Cameron Diaz</a></h3>
+                                            <span class="details">Design Instructor</span>
+                                            <div class="social-media">
+                                                <ul class="d-flex justify-content-center">
+                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1135,22 +1289,24 @@
                             <div class="instructors-content-wrp">
                                 <div class="instructors-img-wrp">
                                     <img src="assets/media/instructors/instructors-3.png" alt="Instructor Cameron Diaz">
-                                    <div class="instructors-content text-center base">
-                                        <div class="arrow-icon">
-                                            <a href="#">
-                                                <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
-                                                </svg>
-                                            </a>
-                                        </div>
-                                        <h3 class="title"><a href="#">Cameron Diaz</a></h3>
-                                        <span class="details">Design Instructor</span>
-                                        <div class="social-media">
-                                            <ul class="d-flex justify-content-center">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            </ul>
+                                    <div class="instructors-content base">
+                                        <div class="instructors-content-wrp text-center">
+                                            <div class="arrow-icon">
+                                                <a href="#">
+                                                    <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <h3 class="title"><a href="#">Cameron Diaz</a></h3>
+                                            <span class="details">Design Instructor</span>
+                                            <div class="social-media">
+                                                <ul class="d-flex justify-content-center">
+                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1160,22 +1316,24 @@
                             <div class="instructors-content-wrp">
                                 <div class="instructors-img-wrp">
                                     <img src="assets/media/instructors/instructors-2.png" alt="Instructor Cameron Diaz">
-                                    <div class="instructors-content text-center base">
-                                        <div class="arrow-icon">
-                                            <a href="#">
-                                                <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
-                                                </svg>
-                                            </a>
-                                        </div>
-                                        <h3 class="title"><a href="#">Cameron Diaz</a></h3>
-                                        <span class="details">Design Instructor</span>
-                                        <div class="social-media">
-                                            <ul class="d-flex justify-content-center">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            </ul>
+                                    <div class="instructors-content base">
+                                        <div class="instructors-content-wrp text-center">
+                                            <div class="arrow-icon">
+                                                <a href="#">
+                                                    <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <h3 class="title"><a href="#">Cameron Diaz</a></h3>
+                                            <span class="details">Design Instructor</span>
+                                            <div class="social-media">
+                                                <ul class="d-flex justify-content-center">
+                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1185,47 +1343,24 @@
                             <div class="instructors-content-wrp">
                                 <div class="instructors-img-wrp">
                                     <img src="assets/media/instructors/instructors-4.png" alt="Instructor Cameron Diaz">
-                                    <div class="instructors-content text-center base">
-                                        <div class="arrow-icon">
-                                            <a href="#">
-                                                <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
-                                                </svg>
-                                            </a>
-                                        </div>
-                                        <h3 class="title"><a href="#">Cameron Diaz</a></h3>
-                                        <span class="details">Design Instructor</span>
-                                        <div class="social-media">
-                                            <ul class="d-flex justify-content-center">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="instructors-slide">
-                            <div class="instructors-content-wrp">
-                                <div class="instructors-img-wrp">
-                                    <img src="assets/media/instructors/instructors-1.png" alt="Instructor Cameron Diaz">
-                                    <div class="instructors-content text-center base">
-                                        <div class="arrow-icon">
-                                            <a href="#">
-                                                <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
-                                                </svg>
-                                            </a>
-                                        </div>
-                                        <h3 class="title"><a href="#">Leslie Alexander</a></h3>
-                                        <span class="details">Design Instructor</span>
-                                        <div class="social-media">
-                                            <ul class="d-flex justify-content-center">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            </ul>
+                                    <div class="instructors-content base">
+                                        <div class="instructors-content-wrp text-center">
+                                            <div class="arrow-icon">
+                                                <a href="#">
+                                                    <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <h3 class="title"><a href="#">Cameron Diaz</a></h3>
+                                            <span class="details">Design Instructor</span>
+                                            <div class="social-media">
+                                                <ul class="d-flex justify-content-center">
+                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1235,47 +1370,24 @@
                             <div class="instructors-content-wrp">
                                 <div class="instructors-img-wrp">
                                     <img src="assets/media/instructors/instructors-1.png" alt="Instructor Cameron Diaz">
-                                    <div class="instructors-content text-center base">
-                                        <div class="arrow-icon">
-                                            <a href="#">
-                                                <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
-                                                </svg>
-                                            </a>
-                                        </div>
-                                        <h3 class="title"><a href="#">Leslie Alexander</a></h3>
-                                        <span class="details">Design Instructor</span>
-                                        <div class="social-media">
-                                            <ul class="d-flex justify-content-center">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="instructors-slide">
-                            <div class="instructors-content-wrp">
-                                <div class="instructors-img-wrp">
-                                    <img src="assets/media/instructors/instructors-1.png" alt="Instructor Cameron Diaz">
-                                    <div class="instructors-content text-center base">
-                                        <div class="arrow-icon">
-                                            <a href="#">
-                                                <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
-                                                </svg>
-                                            </a>
-                                        </div>
-                                        <h3 class="title"><a href="#">Leslie Alexander</a></h3>
-                                        <span class="details">Design Instructor</span>
-                                        <div class="social-media">
-                                            <ul class="d-flex justify-content-center">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            </ul>
+                                    <div class="instructors-content base">
+                                        <div class="instructors-content-wrp text-center">
+                                            <div class="arrow-icon">
+                                                <a href="#">
+                                                    <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <h3 class="title"><a href="#">Leslie Alexander</a></h3>
+                                            <span class="details">Design Instructor</span>
+                                            <div class="social-media">
+                                                <ul class="d-flex justify-content-center">
+                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1285,22 +1397,78 @@
                             <div class="instructors-content-wrp">
                                 <div class="instructors-img-wrp">
                                     <img src="assets/media/instructors/instructors-1.png" alt="Instructor Cameron Diaz">
-                                    <div class="instructors-content text-center base">
-                                        <div class="arrow-icon">
-                                            <a href="#">
-                                                <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
-                                                </svg>
-                                            </a>
+                                    <div class="instructors-content base">
+                                        <div class="instructors-content-wrp text-center">
+                                            <div class="arrow-icon">
+                                                <a href="#">
+                                                    <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <h3 class="title"><a href="#">Leslie Alexander</a></h3>
+                                            <span class="details">Design Instructor</span>
+                                            <div class="social-media">
+                                                <ul class="d-flex justify-content-center">
+                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
-                                        <h3 class="title"><a href="#">Leslie Alexander</a></h3>
-                                        <span class="details">Design Instructor</span>
-                                        <div class="social-media">
-                                            <ul class="d-flex justify-content-center">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="instructors-slide">
+                            <div class="instructors-content-wrp">
+                                <div class="instructors-img-wrp">
+                                    <img src="assets/media/instructors/instructors-1.png" alt="Instructor Cameron Diaz">
+                                    <div class="instructors-content base">
+                                        <div class="instructors-content-wrp text-center">
+                                            <div class="arrow-icon">
+                                                <a href="#">
+                                                    <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <h3 class="title"><a href="#">Leslie Alexander</a></h3>
+                                            <span class="details">Design Instructor</span>
+                                            <div class="social-media">
+                                                <ul class="d-flex justify-content-center">
+                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="instructors-slide">
+                            <div class="instructors-content-wrp">
+                                <div class="instructors-img-wrp">
+                                    <img src="assets/media/instructors/instructors-1.png" alt="Instructor Cameron Diaz">
+                                    <div class="instructors-content base">
+                                        <div class="instructors-content-wrp text-center">
+                                            <div class="arrow-icon">
+                                                <a href="#">
+                                                    <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <h3 class="title"><a href="#">Leslie Alexander</a></h3>
+                                            <span class="details">Design Instructor</span>
+                                            <div class="social-media">
+                                                <ul class="d-flex justify-content-center">
+                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1310,22 +1478,24 @@
                             <div class="instructors-content-wrp">
                                 <div class="instructors-img-wrp">
                                     <img src="assets/media/instructors/instructors-3.png" alt="Instructor Cameron Diaz">
-                                    <div class="instructors-content text-center base">
-                                        <div class="arrow-icon">
-                                            <a href="#">
-                                                <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
-                                                </svg>
-                                            </a>
-                                        </div>
-                                        <h3 class="title"><a href="#">Jerome Bell</a></h3>
-                                        <span class="details">Design Instructor</span>
-                                        <div class="social-media">
-                                            <ul class="d-flex justify-content-center">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            </ul>
+                                    <div class="instructors-content base">
+                                        <div class="instructors-content-wrp text-center">
+                                            <div class="arrow-icon">
+                                                <a href="#">
+                                                    <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <h3 class="title"><a href="#">Jerome Bell</a></h3>
+                                            <span class="details">Design Instructor</span>
+                                            <div class="social-media">
+                                                <ul class="d-flex justify-content-center">
+                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1335,22 +1505,24 @@
                             <div class="instructors-content-wrp">
                                 <div class="instructors-img-wrp">
                                     <img src="assets/media/instructors/instructors-2.png" alt="Instructor Cameron Diaz">
-                                    <div class="instructors-content text-center base">
-                                        <div class="arrow-icon">
-                                            <a href="#">
-                                                <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
-                                                </svg>
-                                            </a>
-                                        </div>
-                                        <h3 class="title"><a href="#">Ralph Edwards</a></h3>
-                                        <span class="details">Design Instructor</span>
-                                        <div class="social-media">
-                                            <ul class="d-flex justify-content-center">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            </ul>
+                                    <div class="instructors-content base">
+                                        <div class="instructors-content-wrp text-center">
+                                            <div class="arrow-icon">
+                                                <a href="#">
+                                                    <svg width="16" height="16" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                            <h3 class="title"><a href="#">Ralph Edwards</a></h3>
+                                            <span class="details">Design Instructor</span>
+                                            <div class="social-media">
+                                                <ul class="d-flex justify-content-center">
+                                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                                </ul>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1367,10 +1539,108 @@
                             </button>
                         </div>
                     </div>
+                    <div class="shape" data-sal="slide-left" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                        <img src="assets/media/scetion-shape.png" alt="elements">
+                    </div>
+                    <div class="shape-2" data-sal="slide-left" data-sal-delay="500" data-sal-duration="1200" data-sal-easing="ease-out-back">
+                        <img src="assets/media/mask.png" alt="elements">
+                    </div>
                 </div>
         </section>
         <!--=====================================-->
         <!--=        Instructors Area End       =-->
+        <!--=====================================-->
+
+        <!--=====================================-->
+        <!--=        Partner Area Start      =-->
+        <!--=====================================-->
+        <section class="partner-layout1 section-padding">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3">
+                        <div class="partner-wrp" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                            <div class="title-wrp">
+                                <div class="section-title">
+                                    <span>PARTNERS</span>
+                                </div>
+                                <div class="partner-title">
+                                    <h2 class="title">Learn With Our<br>
+                                        <span><a href="#">Partners</a></span>
+                                    </h2>
+                                </div>
+                                <div class="partner-details">
+                                    <p>
+                                        At Stadum University we are committed to<br>
+                                        providing a high-quality education
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="section-btn">
+                                <a class="btn" href="#">
+                                    <span>Start Learning</span>
+                                    <svg width="20" height="20" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_706_4588)">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1042 -1.66132C17.0962 0.531408 17.4796 2.7041 18.2326 4.73269C18.9855 6.76129 20.0933 8.60608 21.4927 10.1617C22.892 11.7174 24.5555 12.9534 26.3882 13.7992C28.2209 14.6451 30.1869 15.0842 32.1739 15.0915L32.1736 15.1623L32.1737 15.1623L32.1649 17.5622L32.1648 17.5622L32.1646 17.633C30.1776 17.6257 28.2084 18.0504 26.3696 18.8828C24.5307 19.7152 22.8582 20.939 21.4475 22.4843C20.0368 24.0297 18.9155 25.8663 18.1477 27.8893C17.3799 29.9123 16.9805 32.0821 16.9725 34.2749L14.5189 34.2659C14.5521 25.2084 20.1472 19.2183 27.6586 17.5457L0.165097 17.445L0.173893 15.045L27.6676 15.1457C20.1686 13.4182 14.6174 7.38722 14.6506 -1.67031L17.1042 -1.66132Z" fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_706_4588">
+                                                <rect width="32" height="32" fill="white" transform="translate(0.228027 0.245117) rotate(0.209999)" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="partner-logo-wrp">
+                            <div class="partner-logo" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                <a href="#">
+                                    <img src="assets/media/partner/partner-1.png" alt="image">
+                                </a>
+                            </div>
+                            <div class="partner-logo" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                <a href="#">
+                                    <img src="assets/media/partner/partner-2.png" alt="image">
+                                </a>
+                            </div>
+                            <div class="partner-logo" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                <a href="#">
+                                    <img src="assets/media/partner/partner-3.png" alt="image">
+                                </a>
+                            </div>
+                            <div class="partner-logo" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                <a href="#">
+                                    <img src="assets/media/partner/partner-4.png" alt="image">
+                                </a>
+                            </div>
+                            <div class="partner-logo" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                <a href="#">
+                                    <img src="assets/media/partner/partner-5.png" alt="image">
+                                </a>
+                            </div>
+                            <div class="partner-logo" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                <a href="#">
+                                    <img src="assets/media/partner/partner-6.png" alt="image">
+                                </a>
+                            </div>
+                            <div class="partner-logo" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                <a href="#">
+                                    <img src="assets/media/partner/partner-7.png" alt="image">
+                                </a>
+                            </div>
+                            <div class="partner-logo" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                <a href="#">
+                                    <img src="assets/media/partner/partner-8.png" alt="image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=====================================-->
+        <!--=        Partner Area End       =-->
         <!--=====================================-->
 
         <!--=====================================-->
@@ -1387,7 +1657,7 @@
                                         <span>COMMUNITY</span>
                                     </div>
                                     <div class="community-title">
-                                        <h2 class="title">Life long <span>learning</span><br>community</h2>
+                                        <h2 class="title">Life long <span><a href="#">learning</a></span><br>community</h2>
                                     </div>
                                     <div class="community-details">
                                         <p>At Stadum University we are committed to providing<br> a high-quality education that is accessible.</p>
@@ -1454,6 +1724,9 @@
                         <div class="col-lg-5">
                             <div class="community-img-wrp" data-sal="slide-left" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
                                 <img src="assets/media/community/community.png" alt="img">
+                                <div class="shape" data-sal="slide-left" data-sal-delay="500" data-sal-duration="1200" data-sal-easing="ease-out-back">
+                                    <img src="assets/media/elements.png" alt="elements">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -1494,8 +1767,15 @@
                                     <div class="section-btn" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
                                         <a class="btn" href="about.html">
                                             <span>Get More Info</span>
-                                            <svg width="20" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                            <svg width="20" height="20" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_706_4588)">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1042 -1.66132C17.0962 0.531408 17.4796 2.7041 18.2326 4.73269C18.9855 6.76129 20.0933 8.60608 21.4927 10.1617C22.892 11.7174 24.5555 12.9534 26.3882 13.7992C28.2209 14.6451 30.1869 15.0842 32.1739 15.0915L32.1736 15.1623L32.1737 15.1623L32.1649 17.5622L32.1648 17.5622L32.1646 17.633C30.1776 17.6257 28.2084 18.0504 26.3696 18.8828C24.5307 19.7152 22.8582 20.939 21.4475 22.4843C20.0368 24.0297 18.9155 25.8663 18.1477 27.8893C17.3799 29.9123 16.9805 32.0821 16.9725 34.2749L14.5189 34.2659C14.5521 25.2084 20.1472 19.2183 27.6586 17.5457L0.165097 17.445L0.173893 15.045L27.6676 15.1457C20.1686 13.4182 14.6174 7.38722 14.6506 -1.67031L17.1042 -1.66132Z" fill="white" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_706_4588">
+                                                        <rect width="32" height="32" fill="white" transform="translate(0.228027 0.245117) rotate(0.209999)" />
+                                                    </clipPath>
+                                                </defs>
                                             </svg>
                                         </a>
                                     </div>
@@ -1517,8 +1797,15 @@
                                     <div class="section-btn">
                                         <a class="btn" href="about.html">
                                             <span>Get More Info</span>
-                                            <svg width="20" height="20" viewBox="0 0 24 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 0.121582C12 1.16588 13.035 2.72858 14.0812 4.04098C15.4284 5.73068 17.0362 7.20678 18.8811 8.33378C20.2632 9.17768 21.9414 9.98778 23.2896 9.98778M12 19.8784C12 18.8341 13.035 17.2714 14.0812 15.959C15.4284 14.2694 17.0362 12.7932 18.8811 11.6662C20.2632 10.8223 21.9414 10.0122 23.2896 10.0122M23.2896 9.99998H0.710449" stroke="#081933" />
+                                            <svg width="20" height="20" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_706_4588)">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1042 -1.66132C17.0962 0.531408 17.4796 2.7041 18.2326 4.73269C18.9855 6.76129 20.0933 8.60608 21.4927 10.1617C22.892 11.7174 24.5555 12.9534 26.3882 13.7992C28.2209 14.6451 30.1869 15.0842 32.1739 15.0915L32.1736 15.1623L32.1737 15.1623L32.1649 17.5622L32.1648 17.5622L32.1646 17.633C30.1776 17.6257 28.2084 18.0504 26.3696 18.8828C24.5307 19.7152 22.8582 20.939 21.4475 22.4843C20.0368 24.0297 18.9155 25.8663 18.1477 27.8893C17.3799 29.9123 16.9805 32.0821 16.9725 34.2749L14.5189 34.2659C14.5521 25.2084 20.1472 19.2183 27.6586 17.5457L0.165097 17.445L0.173893 15.045L27.6676 15.1457C20.1686 13.4182 14.6174 7.38722 14.6506 -1.67031L17.1042 -1.66132Z" fill="white" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_706_4588">
+                                                        <rect width="32" height="32" fill="white" transform="translate(0.228027 0.245117) rotate(0.209999)" />
+                                                    </clipPath>
+                                                </defs>
                                             </svg>
                                         </a>
                                     </div>
@@ -1570,10 +1857,438 @@
         <!--=====================================-->
 
         <!--=====================================-->
+        <!--=        Blog Area Start              =-->
+        <!--=====================================-->
+        <section class="blog-layout1 section-padding">
+            <div class="blog-wrp">
+                <div class="container">
+                    <div class="row">
+                        <div class="blog-title-wrp d-flex align-items-end justify-content-between">
+                            <div class="title-wrp" data-sal="slide-fade" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                <div class="section-title">
+                                    <span>BLOG & NEWS</span>
+                                </div>
+                                <div class="blog-title">
+                                    <h2 class="title">Get Latest <span><a href="#">News</a></span> & Blog</h2>
+                                </div>
+                            </div>
+                            <div class="blog-btn" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                <div class="section-btn-2 text-center" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                    <a class="btn" href="about.html">
+                                        <span>Explore All</span>
+                                        <svg width="20" height="20" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <g clip-path="url(#clip0_708_4588)">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.037 -1.66309C17.037 0.529653 17.4283 2.70092 18.1887 4.72675C18.9491 6.75257 20.0637 8.59328 21.4687 10.1438C22.8737 11.6943 24.5418 12.9242 26.3775 13.7633C28.2133 14.6025 30.1809 15.0343 32.1679 15.0343V15.1051H32.168V17.5051H32.1679V17.5759C30.1809 17.5759 28.2133 18.0078 26.3775 18.8469C24.5418 19.686 22.8737 20.916 21.4687 22.4665C20.0637 24.017 18.9491 25.8577 18.1887 27.8835C17.4283 29.9093 17.037 32.0806 17.037 34.2733H14.5833C14.5833 25.2158 20.1565 19.2052 27.6617 17.5051L0.167969 17.5051L0.167969 15.1051L27.6619 15.1051C20.1566 13.4051 14.5833 7.3945 14.5833 -1.66309H17.037Z" fill="#081933" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_708_4588">
+                                                    <rect width="32" height="32" fill="white" transform="translate(0.167969 0.305176)" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="news-cart-wrp" data-sal="slide-up" data-sal-delay="300" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                <a class="news-cart-img" href="#">
+                                    <img src="assets/media/blog/blog-1.png" alt="blog-img">
+                                </a>
+                                <div class="news-card-details-wrp">
+                                    <div class="news-cart-author-wrp">
+                                        <span class="author d-flex align-items-center"><span class="author-img"><img src="assets/media/company-icon.png" alt="company-img"></span><a href="#">By Themeholy</a></span></span>
+                                        <span class="comment d-flex align-items-center"><span class="comment-icon"><i class="fas fa-comments"></i></span><a href="#">0 Comments</a></span></span>
+                                    </div>
+                                    <h4 class="news-cart-title"><a href="#">How to Stay Motivated When Learning<br>Something New</a></h4>
+                                    <p class="news-cart-details">
+                                        At Stadum University we are committed to<br> providing a high-quality education.
+                                    </p>
+                                    <div class="section-btn-2">
+                                        <a class="btn" href="about.html">
+                                            <span>Read More</span>
+                                            <svg width="16" height="16" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_708_4588)">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.037 -1.66309C17.037 0.529653 17.4283 2.70092 18.1887 4.72675C18.9491 6.75257 20.0637 8.59328 21.4687 10.1438C22.8737 11.6943 24.5418 12.9242 26.3775 13.7633C28.2133 14.6025 30.1809 15.0343 32.1679 15.0343V15.1051H32.168V17.5051H32.1679V17.5759C30.1809 17.5759 28.2133 18.0078 26.3775 18.8469C24.5418 19.686 22.8737 20.916 21.4687 22.4665C20.0637 24.017 18.9491 25.8577 18.1887 27.8835C17.4283 29.9093 17.037 32.0806 17.037 34.2733H14.5833C14.5833 25.2158 20.1565 19.2052 27.6617 17.5051L0.167969 17.5051L0.167969 15.1051L27.6619 15.1051C20.1566 13.4051 14.5833 7.3945 14.5833 -1.66309H17.037Z" fill="#081933" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_708_4588">
+                                                        <rect width="32" height="32" fill="white" transform="translate(0.167969 0.305176)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="date-wrp">
+                                    <h3 class="date">18</h3>
+                                    <span class="month">Feb,25</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="news-cart-wrp" data-sal="slide-up" data-sal-delay="400" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                <a class="news-cart-img" href="#">
+                                    <img src="assets/media/blog/blog-2.png" alt="blog-img">
+                                </a>
+                                <div class="news-card-details-wrp">
+                                    <div class="news-cart-author-wrp">
+                                        <span class="author d-flex align-items-center"><span class="author-img"><img src="assets/media/company-icon.png" alt="company-img"></span><a href="#">By Themeholy</a></span></span>
+                                        <span class="comment d-flex align-items-center"><span class="comment-icon"><i class="fas fa-comments"></i></span><a href="#">0 Comments</a></span></span>
+                                    </div>
+                                    <h4 class="news-cart-title"><a href="#">What's the Secret to Reading Books<br> Effectively?</a></h4>
+                                    <p class="news-cart-details">
+                                        At Stadum University we are committed to<br> providing a high-quality education.
+                                    </p>
+                                    <div class="section-btn-2">
+                                        <a class="btn" href="about.html">
+                                            <span>Read More</span>
+                                            <svg width="16" height="16" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_708_4588)">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.037 -1.66309C17.037 0.529653 17.4283 2.70092 18.1887 4.72675C18.9491 6.75257 20.0637 8.59328 21.4687 10.1438C22.8737 11.6943 24.5418 12.9242 26.3775 13.7633C28.2133 14.6025 30.1809 15.0343 32.1679 15.0343V15.1051H32.168V17.5051H32.1679V17.5759C30.1809 17.5759 28.2133 18.0078 26.3775 18.8469C24.5418 19.686 22.8737 20.916 21.4687 22.4665C20.0637 24.017 18.9491 25.8577 18.1887 27.8835C17.4283 29.9093 17.037 32.0806 17.037 34.2733H14.5833C14.5833 25.2158 20.1565 19.2052 27.6617 17.5051L0.167969 17.5051L0.167969 15.1051L27.6619 15.1051C20.1566 13.4051 14.5833 7.3945 14.5833 -1.66309H17.037Z" fill="#081933" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_708_4588">
+                                                        <rect width="32" height="32" fill="white" transform="translate(0.167969 0.305176)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="date-wrp">
+                                    <h3 class="date">21</h3>
+                                    <span class="month">Feb,25</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="news-cart-wrp" data-sal="slide-up" data-sal-delay="500" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                                <a class="news-cart-img" href="#">
+                                    <img src="assets/media/blog/blog-3.png" alt="blog-img">
+                                </a>
+                                <div class="news-card-details-wrp">
+                                    <div class="news-cart-author-wrp">
+                                        <span class="author d-flex align-items-center"><span class="author-img"><img src="assets/media/company-icon.png" alt="company-img"></span><a href="#">By Themeholy</a></span></span>
+                                        <span class="comment d-flex align-items-center"><span class="comment-icon"><i class="fas fa-comments"></i></span><a href="#">0 Comments</a></span></span>
+                                    </div>
+                                    <h4 class="news-cart-title"><a href="#">Why Setting Goals Can Improve Your<br> Learning Skills</a></h4>
+                                    <p class="news-cart-details">
+                                        At Stadum University we are committed to<br> providing a high-quality education.
+                                    </p>
+                                    <div class="section-btn-2">
+                                        <a class="btn" href="about.html">
+                                            <span>Read More</span>
+                                            <svg width="16" height="16" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <g clip-path="url(#clip0_708_4588)">
+                                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M17.037 -1.66309C17.037 0.529653 17.4283 2.70092 18.1887 4.72675C18.9491 6.75257 20.0637 8.59328 21.4687 10.1438C22.8737 11.6943 24.5418 12.9242 26.3775 13.7633C28.2133 14.6025 30.1809 15.0343 32.1679 15.0343V15.1051H32.168V17.5051H32.1679V17.5759C30.1809 17.5759 28.2133 18.0078 26.3775 18.8469C24.5418 19.686 22.8737 20.916 21.4687 22.4665C20.0637 24.017 18.9491 25.8577 18.1887 27.8835C17.4283 29.9093 17.037 32.0806 17.037 34.2733H14.5833C14.5833 25.2158 20.1565 19.2052 27.6617 17.5051L0.167969 17.5051L0.167969 15.1051L27.6619 15.1051C20.1566 13.4051 14.5833 7.3945 14.5833 -1.66309H17.037Z" fill="#081933" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_708_4588">
+                                                        <rect width="32" height="32" fill="white" transform="translate(0.167969 0.305176)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="date-wrp">
+                                    <h3 class="date">15</h3>
+                                    <span class="month">Feb,25</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shape" data-sal="slide-left" data-sal-delay="200" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                    <img src="assets/media/mask.png" alt="shape">
+                </div>
+                <div class="shape-2" data-sal="slide-left" data-sal-delay="200" data-sal-duration="1000" data-sal-easing="ease-out-back">
+                    <img src="assets/media/shape.png" alt="shape">
+                </div>
+            </div>
+        </section>
+
+        <!--=====================================-->
+        <!--=        Blog Area End                =-->
+        <!--=====================================-->
+
+        <!--=====================================-->
+        <!--=        Sponsor Area Start           =-->
+        <!--=====================================-->
+        <section class="sponsore-layout1">
+            <div class="text-center swiper mySwiper swiper-container-free-mode">
+                <div class="swiper-wrapper">
+                    <!-- slider group  -->
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">DISCOVER</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/book-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">INNOVATE</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/cap-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">EDUCATION</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/book-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">CASE STUDIES</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/cap-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">DISCOVER</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/book-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">INNOVATE</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/cap-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">EDUCATION</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/book-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">CASE STUDIES</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/cap-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">DISCOVER</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/book-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">INNOVATE</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/cap-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">EDUCATION</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/book-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">CASE STUDIES</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/cap-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">DISCOVER</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/book-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">INNOVATE</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/cap-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">EDUCATION</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/book-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">CASE STUDIES</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/cap-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">DISCOVER</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/book-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">INNOVATE</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/cap-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">EDUCATION</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/book-icon.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="swiper-slide item--center d-flex">
+                        <a href="javascript:void(0);">
+                            <h2 class="title">CASE STUDIES</h2>
+                        </a>
+                        <div>
+                            <img src="assets/media/sponsore/cap-icon.png" alt="img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--=====================================-->
+        <!--=        Sponsor Area End             =-->
+        <!--=====================================-->
+
+        <!--=====================================-->
         <!--=        Footer Area Start       	=-->
         <!--=====================================-->
         <footer class="footer-area">
-
+            <div class="footer-wrp">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="footer-details-wrp-1">
+                                <div class="footer-logo">
+                                    <img src="assets/media/footer/footer-logo.png" alt="footer-logo">
+                                </div>
+                                <div class="footer-content">
+                                    <p>
+                                        Since 1999, when the newly minted Stadum<br> team
+                                        embraced its mandate to breathe new<br> life into
+                                        the downtrodden neighbourhood, East<br> Village’s
+                                        transformation has been nothing<br> short of remarkable.
+                                    </p>
+                                </div>
+                                <div class="info-wrp">
+                                    <span class="location-title">
+                                        <span class="icon-location">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </span>
+                                        45 New Eskaton Road, Austria
+                                    </span>
+                                    <span class="email-wrp">
+                                        <span class="icon-email">
+                                            <i class="fas fa-envelope"></i>
+                                        </span>
+                                        <a href="#">infomail@example.com</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="footer-details-wrp-2">
+                                <h4>Useful Links</h4>
+                                <ul class="footer-list">
+                                    <li class="mb"><a href="#"><i class="fal fa-angle-right"></i>Students</a></li>
+                                    <li class="mb"><a href="#"><i class="fal fa-angle-right"></i>Admission</a></li>
+                                    <li class="mb"><a href="#"><i class="fal fa-angle-right"></i>Faculty & Stuffs</a></li>
+                                    <li class="mb"><a href="#"><i class="fal fa-angle-right"></i>Media Relations</a></li>
+                                    <li class="mb"><a href="#"><i class="fal fa-angle-right"></i>Alumni</a></li>
+                                    <li class="mb"><a href="#"><i class="fal fa-angle-right"></i>All Awards</a></li>
+                                    <li><a href="#"><i class="fal fa-angle-right"></i>Recent Events</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="footer-details-wrp-2 footer-details-wrp-border-1">
+                                <h4>Our Programs</h4>
+                                <ul class="footer-list">
+                                    <li class="mb"><a href="#"><i class="fal fa-angle-right"></i>Ungraduate Programs</a></li>
+                                    <li class="mb"><a href="#"><i class="fal fa-angle-right"></i>Graduate Programs</a></li>
+                                    <li class="mb"><a href="#"><i class="fal fa-angle-right"></i>Certificate Programs</a></li>
+                                    <li class="mb"><a href="#"><i class="fal fa-angle-right"></i>Accelerate Programs</a></li>
+                                    <li class="mb"><a href="#"><i class="fal fa-angle-right"></i>Online Programs</a></li>
+                                    <li class="mb"><a href="#"><i class="fal fa-angle-right"></i>Financial Planning</a></li>
+                                    <li><a href="#"><i class="fal fa-angle-right"></i>Business Advisory</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="footer-details-wrp-2 footer-details-wrp-border-2">
+                                <h4>Instagram</h4>
+                                <div class="insta-img">
+                                    <ul class="d-flex">
+                                        <li><a href="#"><i class="fab fa-instagram"></i><img src="assets/media/footer/footer-img-1.png" alt="footer-img-1"></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i><img src="assets/media/footer/footer-img-2.png" alt="footer-img-2"></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i><img src="assets/media/footer/footer-img-3.png" alt="footer-img-3"></a></li>
+                                    </ul>
+                                    <ul class="d-flex">
+                                        <li><a href="#"><i class="fab fa-instagram"></i><img src="assets/media/footer/footer-img-2.png" alt="footer-img-4"></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i><img src="assets/media/footer/footer-img-5.png" alt="footer-img-5"></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram"></i><img src="assets/media/footer/footer-img-6.png" alt="footer-img-6"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-footer"></div>
+                <div class="footer-bottom-wrp">
+                    <div class="container">
+                        <div class="row">
+                            <div class="footer-bottom d-flex align-items-center justify-content-between">
+                                <p>Copyright © 2025 <a href="#">Stadum.</a> All Rights Reserved.</p>
+                                <div class="social-media-wrp">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-instagram "></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </footer>
         <!--=====================================-->
         <!--=        Footer Area End        	=-->
@@ -1594,6 +2309,7 @@
     <script src="assets/js/vendor/sal.js"></script>
     <script src="assets/js/vendor/jquery-appear.js"></script>
     <script src="assets/js/vendor/slick.min.js"></script>
+    <script src="assets/js/vendor/swiper.js"></script>
     <script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/vendor/js.cookie.js"></script>
     <script src="assets/js/vendor/jquery.style.switcher.js"></script>
