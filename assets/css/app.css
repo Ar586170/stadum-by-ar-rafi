@@ -574,7 +574,7 @@ input {
 
 .section-title {
     position: relative;
-    margin-bottom: 24px;
+    margin-bottom: 8px;
 }
 
 .section-title span {
@@ -603,7 +603,7 @@ input {
 
 .section-title-2 {
     position: relative;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .section-title-2 span {
